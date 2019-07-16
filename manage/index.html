@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>查詢交易</title>
+
+</head>
+<body>
+
+  <div class="table_out">
+
+    <div class="block1">
+        <center>
+        <h4 >合約地址:  <font  class="" id="contract_address" >載入中...</font></h4>
+        <h4 >
+
+          <text  class="" id="address"></text>
+          <select id= "select">
+          　<option value=0>提領以太</option>
+          　<option value=1>提領GIC</option>
+          　<option value=2>提領Arina</option>
+            <option value=3>提領Gash</option>
+          </select>
+          <input id="amout" type="text" value="all">
+          <button id="button">提領</button>
+
+        </h4>
+        </center>
+
+    </div>
+
+
+
+  <table class="table1">
+  <tr>
+    <th width=7%>交易編號</th>
+    <th width=7%>交易類型</th>
+    <th width=7%>交易幣別</th>
+    <th width=7%>交易金額</th>
+    <th width=15%>轉入/提出 地址</th>
+    <th width=7%>交易TxHash</th>
+    <th width=15%>交易時間</th>
+
+  </tr>
+
+
+    <tbody id="push"></tbody>
+
+  </table>
+
+
+<script src="./web3.js"></script>
+<script src="./jquery-3.2.1.slim.min.js"></script>
+<script src="./abi.js"></script>
+<script src="./abi2.js"></script>
+<script src="./push.js"></script>
+<script src="./ethereum.js"></script>
+
+<!--載入順序要特別注意-->
+
+</body>
+</html>

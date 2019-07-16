@@ -1,0 +1,41 @@
+.table_out{
+
+margin:0 auto;/*置中*/
+}
+
+select{
+  font-size: 14px;
+}
+
+label {
+    display:block;
+    margin-bottom:8px;
+}
+input {
+  font-size: 14px;
+
+}
+
+.block1{
+      margin:1em auto;
+}
+
+.table1{
+      width:1200px;
+      margin:0 auto;
+      background:#00F;
+      border:2px solid #ddd;
+      border-collapse:collapse;
+}
+.table1 tr th{ /*設定表格中的標題欄位樣式*/
+      background:#FDE9D9;
+      border:1px solid #ccc;
+      border-collapse:collapse;
+}
+
+.table1 tr td{ /*設定表格中的內容欄位樣式*/
+     background:#FFFFE0;
+     border:1px solid #ccc;
+     border-collapse:collapse;
+
+}
