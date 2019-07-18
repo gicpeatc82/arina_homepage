@@ -113,22 +113,27 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
     
     <!--------arina-dapp------------------------------------------------>
             <section id="arina-dapp">
-                <div class="row">
-                    <div class="col-sm-12 col-md-8">
-                        <div class="dapp-img">
-
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-8">
+                            <div class="dapp-img" id="dapp-img-left">
+                                <img src="images/3OurDAPP/ARINAYAKYUKEN.png" alt="">
+                                <img src="images/3OurDAPP/ARINASCRATCH.png" alt="">
+                            </div>
+                            <div class="dapp-img" id="dapp-img-right">
+                                <div></div>
+                                <img src="images/3OurDAPP/ARINALANDTYCOON.png" alt="">
+                            </div>
                         </div>
-                        <div class="dapp-img">
-                            
+                        <div id="arina-dapp-context"  class="col-sm-12 col-md-4">
+                            <h5 data-i18n-text="arinaDapp"></h5>
+                            <p data-i18n-text="arinaDappContext"></p>
                         </div>
                     </div>
-                    <div id="arina-dapp-context"  class="col-sm-12 col-md-4">
-                        <h5 data-i18n-text="firstGame"></h5>
-                        <p data-i18n-text="firstGame"></p>
-                    </div>
-                </div>
-                <div id="second-title">
 
+                    <div id="second-title">
+                        <img src="images/3OurDAPP/ARINALOGO.png" alt="">
+                    </div>
                 </div>
             </section>
                 

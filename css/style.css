@@ -158,4 +158,31 @@ header {
 .info-context p{
     margin:5px 15px;
 }
+
 /*====================03.arina-dapp============*/
+
+.dapp-img{
+    
+    width:49%;
+    display:inline-block;
+}
+.dapp-img img{
+    padding:12px 5px;
+}
+
+#dapp-img-left{
+    float:left;
+}
+
+#dapp-img-right{
+    padding: 25% 0;
+    float:right;
+}
+
+#arina-dapp-context{
+    padding: 25% 0;
+}
+
+#second-title{
+    margin: 5% 10%;
+}
