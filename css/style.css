@@ -125,13 +125,15 @@ header {
 
 /*====================03.arina-info============*/
 #arina-info-top{
-    margin:20px 0;
+    margin-bottom:40px;
 }
 .info-img-item{
     display: inline-block;
+    width: 49%;
+    padding:0px 10px 20px 10px;
 }
 .info-img-item img{
-    width: 80%;
+    
 }
 .info-item{
     padding:0 15px;
@@ -185,4 +187,39 @@ header {
 
 #second-title{
     margin: 5% 10%;
+}
+
+/*====================04.arina-video============*/
+#arina-video{
+    left: 0;
+    right: 0;
+    background-image: url(../images/4ARINAYAKYUKEN/VideoARINAYAKYUKEN.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15%;
+}
+
+#arina-video-youtube{
+    position: relative;
+
+padding-bottom: 56.25%;
+
+padding-top: 30px;
+
+height: 0;
+
+overflow: hidden;
+}
+
+.arina-video-youtube iframe, .video-container object, .video-container embed {
+
+    position: absolute;
+    
+    top: 0;left: 0;
+    
+    width: 100%;
+    
+    height: 100%;
 }

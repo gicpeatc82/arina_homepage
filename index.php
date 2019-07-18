@@ -138,14 +138,31 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             </section>
                 
     <!--------arina-video------------------------------------------------>
-            <section>
-                <div>
-                    <img src="" alt="">
+            <section id="arina-video">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-7">
+                            <h5 id="arina-video-title"></h5>
+
+                            <div id="arina-video-youtube">
+                            <iframe src="https://www.youtube.com/embed/W1S7vUCfaEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <p id="arina-video-context"></p>
+                        </div>
+                        <div id="arina-video-button"  class="col-sm-12 col-md-5">
+                            <p></p>
+                        </div>
+                    </div>
+
                 </div>
+                    
+
             </section>
 
     <!--------arina-interface------------------------------------------------>
             <section>
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
                         <div class="interface-icon">
@@ -164,6 +181,8 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         <img src="" alt="">
                     </div>
                 </div>
+                </div>
+                
             </section>
 
     <!--------arina-million------------------------------------------------>
@@ -176,23 +195,26 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
     <!--------footer------------------------------------------------>
         <footer>
             <div id="arina-future">
-                <div class="row" id="arina-info-down">
-                    <div class="info-item col-sm-12 col-md-5">
-                        <div class="info-context">
-                            <p data-i18n-text="firstGame"></p>
-                        </div>
-                    </div>
-                    <div class="info-item col-sm-12 col-md-5">
-                        <div class="info-context">
+                <div class="container">
+                    <div class="row" id="arina-info-down">
+                        <div class="info-item col-sm-12 col-md-5">
+                            <div class="info-context">
                                 <p data-i18n-text="firstGame"></p>
                             </div>
                         </div>
-                    <div class="info-item col-sm-12 col-md-2">
-                        <div class="info-context">
-                            <p data-i18n-text="firstGame"></p>
+                        <div class="info-item col-sm-12 col-md-5">
+                            <div class="info-context">
+                                    <p data-i18n-text="firstGame"></p>
+                                </div>
+                            </div>
+                        <div class="info-item col-sm-12 col-md-2">
+                            <div class="info-context">
+                                <p data-i18n-text="firstGame"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
 
             <div>
@@ -202,23 +224,26 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 
             </div>
             <div>
-                <div class="row" id="arina-info-down">
-                    <div class="info-item col-sm-12 col-md-4">
-                        <div class="info-context">
-                            <p data-i18n-text="firstGame"></p>
-                        </div>
-                    </div>
-                    <div class="info-item col-sm-12 col-md-4">
-                        <div class="info-context">
+                <div class="container">
+                    <div class="row" id="arina-info-down">
+                        <div class="info-item col-sm-12 col-md-4">
+                            <div class="info-context">
                                 <p data-i18n-text="firstGame"></p>
                             </div>
                         </div>
-                    <div class="info-item col-sm-12 col-md-4">
-                        <div class="info-context">
-                            <p data-i18n-text="firstGame"></p>
+                        <div class="info-item col-sm-12 col-md-4">
+                            <div class="info-context">
+                                    <p data-i18n-text="firstGame"></p>
+                                </div>
+                            </div>
+                        <div class="info-item col-sm-12 col-md-4">
+                            <div class="info-context">
+                                <p data-i18n-text="firstGame"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </footer>
 
