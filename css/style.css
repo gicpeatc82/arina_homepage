@@ -1,0 +1,154 @@
+/*================01.basic setting=====================*/
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:hover, a:focus {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 85%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    }
+
+section {
+    padding: 100px 0;
+}
+
+.clearfix::after {
+    content: '';
+    display : table;
+    clear: both;
+}
+
+h2{
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*====================02.header============*/
+header {
+    left: 0;
+    right: 0;
+    background-image: url(../images/MainPage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+  
+#navber {
+    height: 50px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    z-index: 100;
+}
+#logo {
+    float: left;
+    width: 80px;
+    height: 40px;
+}
+  
+.nav {
+    float: right;
+}
+  
+.nav li {
+    display: inline-block;
+}
+  
+.nav li a {
+    color: #fff;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px 12px;
+}
+
+#info-context p{
+    font-variant: small-caps;
+}
+
+#middle-part{
+    left: 0;
+    right: 0;
+    background-image: url(../images/ShapeBG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700%;
+}
+
+/*====================03.arina-info============*/
+#arina-info-top{
+    margin:20px 0;
+}
+.info-img-item{
+    display: inline-block;
+}
+.info-img-item img{
+    width: 80%;
+}
+.info-item{
+    padding:0 15px;
+}
+
+.info-context{
+    text-align: center;
+    background-color: #ccc;
+}
+
+.info-context img{
+    
+    width:50%;
+}
+.info-context img:before{
+    display:inline-block;
+    position:relative;
+    width:25%;
+}
+/*====================03.arina-dapp============*/
