@@ -140,15 +140,22 @@ header {
 .info-context{
     text-align: center;
     background-color: #ccc;
+    padding:20px 0;
 }
 
-.info-context img{
-    
+.info-context-img{
+
     width:50%;
-}
-.info-context img:before{
+    vertical-align: middle;
     display:inline-block;
-    position:relative;
-    width:25%;
+}
+.info-context-img::before{
+    display:inline-block;
+}
+.info-context h5{
+    padding-top:20px;
+}
+.info-context p{
+    margin:5px 15px;
 }
 /*====================03.arina-dapp============*/

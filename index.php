@@ -82,20 +82,29 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div class="row" id="arina-info-down">
                         <div class="info-item col-sm-12 col-md-4">
                             <div class="info-context">
-                                <img src="images/2WhatisARINAUNIVERSE/ERC-20.png" alt="">
-                                <p data-i18n-text="firstGame"></p>
+                                <div class="info-context-img">
+                                    <img src="images/2WhatisARINAUNIVERSE/ERC-20.png" alt="">
+                                </div>
+                                <h5 data-i18n-text="erc20"></h5>
+                                <p data-i18n-text="erc20Context"></p>
                             </div>
                         </div>
                         <div class="info-item col-sm-12 col-md-4">
                             <div class="info-context">
+                                <div class="info-context-img">
                                     <img src="images/2WhatisARINAUNIVERSE/ERC-721.png" alt="">
-                                    <p data-i18n-text="firstGame"></p>
                                 </div>
+                                <h5 data-i18n-text="erc721"></h5>
+                                <p data-i18n-text="erc721Context"></p>
                             </div>
+                        </div>
                         <div class="info-item col-sm-12 col-md-4">
                             <div class="info-context">
-                                <img src="images/2WhatisARINAUNIVERSE/AI.png" alt="">
-                                <p data-i18n-text="firstGame"></p>
+                                <div class="info-context-img">
+                                    <img src="images/2WhatisARINAUNIVERSE/AI.png" alt="">
+                                </div>
+                                <h5 data-i18n-text="funAi"></h5>
+                                <p data-i18n-text="funAiContext"></p>
                             </div>
                         </div>
                     </div>
