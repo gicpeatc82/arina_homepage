@@ -142,16 +142,18 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 col-md-7">
-                            <h5 id="arina-video-title"></h5>
-
-                            <div id="arina-video-youtube">
-                            <iframe src="https://www.youtube.com/embed/W1S7vUCfaEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h1 id="arina-video-title">ARINA YAKYUKEN</h1>
+                            <div id="">
+                                <div class="video-container">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/W1S7vUCfaEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                             </div>
-
-                            <p id="arina-video-context"></p>
+                            
+                            <img id="YAKYUKENLOGO" src="images/4ARINAYAKYUKEN/ARINAYAKYUKENLOGO.png" alt="">
+                            <p id="arina-video-context" data-i18n-text="arinaVideoContext"></p>
                         </div>
                         <div id="arina-video-button"  class="col-sm-12 col-md-5">
-                            <p></p>
+                            <img src="images/4ARINAYAKYUKEN/PLAYNOW.png" alt="">
                         </div>
                     </div>
 
