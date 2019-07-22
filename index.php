@@ -197,8 +197,29 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             </section>
 
     <!--------arina-million------------------------------------------------>
-            <section>
+            <section id="arina-million">
+                <div id="million-free">
+                    <img id="million-free" src="images/6ARINASCRATCH/ClickForFREE.gif">
+                </div>
+                <div id="arina-million-context">
+                
+                    <p data-i18n-text="millionContext_1"></p>
+                    <p data-i18n-text="millionContext_2"></p>
+                    <p data-i18n-text="millionContext_3"></p>
+                    <br>
+                    <p data-i18n-text="millionContext_4"></p>
+                    <p data-i18n-text="millionContext_5"></p>
+                    <p data-i18n-text="millionContext_6"></p>
+                    <p data-i18n-text="millionContext_7"></p>
+                    <br>
+                    <p data-i18n-text="millionContext_8"></p>
+                    <p data-i18n-text="millionContext_9"></p>
+                    <p data-i18n-text="millionContext_10"></p>
+                
+                </div>
+                <div>
 
+                </div>
             </section>
 
         </div>
@@ -210,17 +231,15 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div class="row" id="arina-info-down">
                         <div class="info-item col-sm-12 col-md-5">
                             <div class="info-context">
-                                <p data-i18n-text="firstGame"></p>
                             </div>
                         </div>
                         <div class="info-item col-sm-12 col-md-5">
                             <div class="info-context">
-                                    <p data-i18n-text="firstGame"></p>
                                 </div>
                             </div>
                         <div class="info-item col-sm-12 col-md-2">
                             <div class="info-context">
-                                <p data-i18n-text="firstGame"></p>
+                                
                             </div>
                         </div>
                     </div>
@@ -239,17 +258,14 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div class="row" id="arina-info-down">
                         <div class="info-item col-sm-12 col-md-4">
                             <div class="info-context">
-                                <p data-i18n-text="firstGame"></p>
                             </div>
                         </div>
                         <div class="info-item col-sm-12 col-md-4">
                             <div class="info-context">
-                                    <p data-i18n-text="firstGame"></p>
                                 </div>
                             </div>
                         <div class="info-item col-sm-12 col-md-4">
                             <div class="info-context">
-                                <p data-i18n-text="firstGame"></p>
                             </div>
                         </div>
                     </div>

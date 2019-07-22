@@ -281,3 +281,38 @@ header {
     transform: translate(-50%, -50%);
 }
 
+/*====================06.arina-million============*/
+#arina-million{
+    left: 0;
+    right: 0;
+    background-image: url(../images/6ARINASCRATCH/millionBG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 15%;
+}
+
+#million-free{
+    position: relative;
+    left: 75%;
+    top: 25%;
+    width: 35%;
+    transform: translate(-50%, -50%);
+}
+#million-free img {
+}
+
+#arina-million-context{
+    position: relative;
+    left: 82%;
+    width: 15%;
+}
+
+#arina-million-context p{
+    text-shadow: 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight:bold;
+}
