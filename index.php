@@ -163,24 +163,33 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             </section>
 
     <!--------arina-interface------------------------------------------------>
-            <section>
+            <section id="arina-interface">
                 <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4">
-                        <div class="interface-icon">
 
+                    <div class="col-sm-12 col-md-5 interface-left">
+                        <div class="interface-icon">
+                            <img src="images/5ARINALANDTYCOON/ARINALANDTYCOONAPPLOGO.png" alt="">
+                        </div>
+                        <div class="interface-logo">
+                            <img src="images/5ARINALANDTYCOON/logo01.png" alt="">
                         </div>
                         <div class="interface-context">
-                            <h5 data-i18n-text="firstGame"></h5>
-                            <p data-i18n-text="firstGame"></p>
+                            <p data-i18n-text="arinaLANDTYCOON"></p>
+                            <h5 data-i18n-text="monoandsimc"></h5>
+                            <p data-i18n-text="arinaLANDTYCOON_1"></p>
+                            <p data-i18n-text="arinaLANDTYCOON_2"></p>
+                            <p data-i18n-text="arinaLANDTYCOON_3"></p>
+                            <p data-i18n-text="arinaLANDTYCOON_4"></p>
+                            <p data-i18n-text="arinaLANDTYCOON_5"></p>
                         </div>
                         <div class="interface-button">
                             
                         </div>
                     </div>
-                    <div id="arina-dapp-context"  class="col-sm-12 col-md-8">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                    <div id="arina-interface-img"  class="col-sm-12 col-md-7">
+                        <img id="interface-macbook" src="images/5ARINALANDTYCOON/macbook.png" alt="">
+                        <img id="interface-iPhone" src="images/5ARINALANDTYCOON/iPhone.png" alt="">
                     </div>
                 </div>
                 </div>
