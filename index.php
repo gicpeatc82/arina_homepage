@@ -139,20 +139,20 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 
     <!--------arina-video------------------------------------------------>
             <section id="arina-video">
+                
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12 col-md-7">
+                        <div class="col-sm-12 col-md-8">
                             <h1 id="arina-video-title">ARINA YAKYUKEN</h1>
-                            <div id="">
-                                <div class="video-container">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/W1S7vUCfaEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/W1S7vUCfaEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
+                            
                             
                             <img id="YAKYUKENLOGO" src="images/4ARINAYAKYUKEN/ARINAYAKYUKENLOGO.png" alt="">
                             <p id="arina-video-context" data-i18n-text="arinaVideoContext"></p>
                         </div>
-                        <div id="arina-video-button"  class="col-sm-12 col-md-5">
+                        <div id="arina-video-button"  class="col-sm-12 col-md-4">
                             <img src="images/4ARINAYAKYUKEN/PLAYNOW.png" alt="">
                         </div>
                     </div>
@@ -183,8 +183,25 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             <p data-i18n-text="arinaLANDTYCOON_4"></p>
                             <p data-i18n-text="arinaLANDTYCOON_5"></p>
                         </div>
-                        <div class="interface-button">
+
+                        <div class="button-group">
+                            <div id="androidDownload">
+                            <a href="" >
+                                <p data-i18n-text="androidDownload"></p>
+                            </a>
+                            </div>
                             
+                            <div id="website">
+                                <a href="">
+                                    <p data-i18n-text="website"></p>
+                                </a>
+                            </div>
+                            <div id="iosDownload">
+                                <a>
+                                    <p  data-i18n-text="iosDownload"></p>
+                                    <p>COMMING SOON!</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div id="arina-interface-img"  class="col-sm-12 col-md-7">
@@ -198,78 +215,46 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 
     <!--------arina-million------------------------------------------------>
             <section id="arina-million">
-                <div id="million-free">
-                    <img id="million-free" src="images/6ARINASCRATCH/ClickForFREE.gif">
-                </div>
-                <div id="arina-million-context">
-                
-                    <p data-i18n-text="millionContext_1"></p>
-                    <p data-i18n-text="millionContext_2"></p>
-                    <p data-i18n-text="millionContext_3"></p>
-                    <br>
-                    <p data-i18n-text="millionContext_4"></p>
-                    <p data-i18n-text="millionContext_5"></p>
-                    <p data-i18n-text="millionContext_6"></p>
-                    <p data-i18n-text="millionContext_7"></p>
-                    <br>
-                    <p data-i18n-text="millionContext_8"></p>
-                    <p data-i18n-text="millionContext_9"></p>
-                    <p data-i18n-text="millionContext_10"></p>
-                
-                </div>
                 <div>
+                    <div id="million-free">
+                        <img id="million-free" src="images/6ARINASCRATCH/ClickForFREE.gif">
+                    </div>
+                    <div id="arina-million-context">
+                    
+                        <p data-i18n-text="millionContext_1"></p>
+                        <p data-i18n-text="millionContext_2"></p>
+                        <p data-i18n-text="millionContext_3"></p>
+                        <br>
+                        <p data-i18n-text="millionContext_4"></p>
+                        <p data-i18n-text="millionContext_5"></p>
+                        <p data-i18n-text="millionContext_6"></p>
+                        <p data-i18n-text="millionContext_7"></p>
+                        <br>
+                        <p data-i18n-text="millionContext_8"></p>
+                        <p data-i18n-text="millionContext_9"></p>
+                        <p data-i18n-text="millionContext_10"></p>
+                    
+                    </div>
 
+                    <div id="arina-million-notice">
+                        <p data-i18n-text="millionNotice_1"></p>
+                        <p data-i18n-text="millionNotice_2"></p>
+                    </div>
                 </div>
+                
             </section>
 
+            <section id="comming-soon">
+                <p data-i18n-text="commingSoon_1"></p>
+                <p data-i18n-text="commingSoon_2"></p>
+                <p data-i18n-text="commingSoon_3"></p>
+            </section>
         </div>
         
     <!--------footer------------------------------------------------>
         <footer>
             <div id="arina-future">
-                <div class="container">
-                    <div class="row" id="arina-info-down">
-                        <div class="info-item col-sm-12 col-md-5">
-                            <div class="info-context">
-                            </div>
-                        </div>
-                        <div class="info-item col-sm-12 col-md-5">
-                            <div class="info-context">
-                                </div>
-                            </div>
-                        <div class="info-item col-sm-12 col-md-2">
-                            <div class="info-context">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
 
-            <div>
-                <h5></h5>
-            </div>
-            <div>
-
-            </div>
-            <div>
-                <div class="container">
-                    <div class="row" id="arina-info-down">
-                        <div class="info-item col-sm-12 col-md-4">
-                            <div class="info-context">
-                            </div>
-                        </div>
-                        <div class="info-item col-sm-12 col-md-4">
-                            <div class="info-context">
-                                </div>
-                            </div>
-                        <div class="info-item col-sm-12 col-md-4">
-                            <div class="info-context">
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 
             </div>
         </footer>
