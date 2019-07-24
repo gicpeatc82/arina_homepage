@@ -22,9 +22,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
         <header id="header">
             <div id="navber">
                 <div id="logo">
-                    <a href="">
-                        <img src="images/logo.jpg" alt="logo">
-                    </a>
+                    <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="logo">
                 </div>
                 <div >
                     <ul class="nav">
@@ -52,6 +50,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <div class="row">
                     <div id="header-left" class="col-sm-12 col-md-8">
                         <h5 data-i18n-text="firstGame"></h5>
+                        <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="logo">
                     </div>
                     <div id="header-right" class="col-sm-12 col-md-4">
                     </div>

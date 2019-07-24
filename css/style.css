@@ -80,7 +80,7 @@ header {
 }
   
 #navber {
-    height: 50px;
+    height: 80px;
     width: 100%;
     left: 0;
     right: 0;
@@ -89,16 +89,20 @@ header {
 }
 #logo {
     float: left;
-    width: 80px;
-    height: 40px;
+    padding:10px 60px;
 }
   
+#logo img{
+    height:60px;
+    width:auto;
+}
 .nav {
     float: right;
 }
   
 .nav li {
     display: inline-block;
+    padding: 15px 0;
 }
   
 .nav li a {
@@ -106,12 +110,24 @@ header {
     text-transform: capitalize;
     display: inline-block;
     padding: 10px 12px;
+    font-size: 20px;
 }
 
 #info-context p{
     font-variant: small-caps;
 }
 
+#header-left{
+    margin-top: 170px;
+}
+#header-left h5{
+    color:#7a41d8;
+    float:right;
+    background-color: #fff;
+    border-radius: 25px;
+    padding:5px 20px;
+    font-weight:bold;
+}
 #middle-part{
     left: 0;
     right: 0;
