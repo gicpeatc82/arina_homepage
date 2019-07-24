@@ -27,9 +27,9 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 
                 <div class="nav">
                     <select id="language" class="selectpicker form-control form-control-sm" data-width="auto" data-style="btn-primary" name="language" onchange="changelang()">
-                    　<option value="zh_TW">TW</option>
-                    　<option value="zh_CN">CN</option>
-                    　<option value="en">ENG</option>
+                        <option value="en">ENG</option>
+                        <option value="zh_TW">TW</option>
+                        <option value="zh_CN">CN</option>
                     </select> 
                 </div>
 
@@ -264,6 +264,11 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div>
                         <img src="images/7commingsoon/ARINASPEED.png" alt="">
                         <span class="future-game">ARINA SPEED</span>
+                        <span class="comming">COMMING SOON</span>
+                    </div>
+                    <div id="ARINAZombinawa">
+                        <img src="images/7commingsoon/ARINAZombinawa.png" alt="">
+                        <span class="future-game">ARINA Zombinawa</span>
                         <span class="comming">COMMING SOON</span>
                     </div>
                 </div>

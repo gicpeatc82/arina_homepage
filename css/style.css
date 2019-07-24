@@ -222,7 +222,7 @@ header {
     height: 5%;
     text-align: center;
     color: #fff;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 #arina-video .container{
     display: table;
@@ -256,11 +256,13 @@ header {
 }
 
 #arina-video-context{
-    margin:0 40px 0 240px;
+    margin:0 40px 0 220px;
     color: #fff;
+    font-size: 0.2em;
 }
 
 #arina-video-button img{
+    margin:20% 0;
     width:30%;
 }
 
@@ -440,7 +442,7 @@ header {
 }
 #future-game div{
     display: inline-block;
-    width: 40%;
+    width: 43%;
     margin: 0 40px;
     position: relative;
 }
@@ -474,6 +476,9 @@ header {
 }
 #future-game div:hover span {
     opacity: 1;
+}
+#ARINAZombinawa::before{
+    width:25%;
 }
 #dapp-listing{
     margin-top: 400px;
