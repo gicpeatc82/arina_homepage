@@ -251,10 +251,14 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             <section id="arina-future">
                 <div id="future-game">
                     <div>
-                        <img src="images/7commingsoon/ARINAHUNTERS.png" alt="">           
+                        <img src="images/7commingsoon/ARINAHUNTERS.png" alt=""> 
+                        <span class="future-game">ARINA HUNTERS</span> 
+                        <span class="comming">COMMING SOON</span>         
                     </div>
                     <div>
                         <img src="images/7commingsoon/ARINASPEED.png" alt="">
+                        <span class="future-game">ARINA SPEED</span>
+                        <span class="comming">COMMING SOON</span>
                     </div>
                 </div>
                 
@@ -279,7 +283,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         <p>Copyright&copy; 2018.GIC-COIN All Rights Reserved.</p>
                     </div>
                     <div>
-                    <img src="images/3OurDAPP/ARINALOGO.png" alt="">
+                    <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="">
                     </div>
                     <div>
                         <ul class="nav">

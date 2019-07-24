@@ -157,7 +157,7 @@ header {
 
 .info-context{
     text-align: center;
-    background-color: #ccc;
+    background-color: #e9e0ff;
     padding:20px 0;
 }
 
@@ -200,7 +200,9 @@ header {
 #arina-dapp-context{
     padding: 25% 0;
 }
-
+#arina-dapp-context h5{
+    font-weight:bold;
+}
 #second-title{
     margin: 5% 10%;
 }
@@ -437,8 +439,40 @@ header {
 }
 #future-game div{
     display: inline-block;
-    width: 49%;
-    padding: 0 40px;
+    width: 40%;
+    margin: 0 40px;
+    position: relative;
+}
+#future-game div:hover{
+    background-image: linear-gradient(0deg, #5c0464, #5c0464 50%);
+}
+
+#future-game div img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#future-game div:hover img {
+    opacity: .6;
+}
+#future-game div span {
+    color:#fff;
+    position: absolute;
+    font-size: 3vmin;
+
+    opacity: 0;
+}
+.future-game{
+    bottom: 10%;
+    left: 5%;
+}
+.comming{
+    bottom: 1%;
+    left: 5%;
+}
+#future-game div:hover span {
+    opacity: 1;
 }
 #dapp-listing{
     margin-top: 400px;
@@ -453,6 +487,12 @@ header {
     display: inline-block;
     
     padding: 0 40px;
+}
+#dapp-listing img {
+    filter: brightness(2000)contrast(50)saturate(0);
+}
+#dapp-listing img:hover {
+    filter: brightness(1)contrast(1)saturate(1);
 }
 .small-dapp{
     width: 19%;
