@@ -249,15 +249,55 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <p data-i18n-text="commingSoon_2"></p>
                 <p data-i18n-text="commingSoon_3"></p>
             </section>
+            <section id="arina-future">
+                <div id="future-game">
+                    <div>
+                        <img src="images/7commingsoon/ARINAHUNTERS.png" alt="">           
+                    </div>
+                    <div>
+                        <img src="images/7commingsoon/ARINASPEED.png" alt="">
+                    </div>
+                </div>
+                
+                <div id="dapp-listing" class="container">
+                    <h3 data-i18n-text="dappListing"></h3>
+                    <div class="small-dapp">
+                        <img src="images/8DAPPLISTING/dapp_logo.png" alt="">
+                    </div>
+                    <div class="small-dapp">
+                        <img src="images/8DAPPLISTING/dappreview.png" alt="">
+                    </div>
+                    <div class="big-dapp">
+                        <img src="images/8DAPPLISTING/dapp_online.png" alt="">
+                    </div>
+                    <div class="big-dapp">
+                        <img src="images/8DAPPLISTING/dapptotal.png" alt="">
+                    </div>
+                </div>
+
+                <div id="footer">
+                    <div>
+                        <p>Copyright&copy; 2018.GIC-COIN All Rights Reserved.</p>
+                    </div>
+                    <div>
+                    <img src="images/3OurDAPP/ARINALOGO.png" alt="">
+                    </div>
+                    <div>
+                        <ul class="nav">
+                            <li>
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </div>
         
     <!--------footer------------------------------------------------>
-        <footer>
-            <div id="arina-future">
 
-                
-            </div>
-        </footer>
 
         <script type='text/javascript' src='js/jquery.min.js'></script>
         <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
