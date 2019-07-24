@@ -24,6 +24,15 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <div id="logo">
                     <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="logo">
                 </div>
+
+                <div class="nav">
+                    <select id="language" class="selectpicker form-control form-control-sm" data-width="auto" data-style="btn-primary" name="language" onchange="changelang()">
+                    　<option value="zh_TW">TW</option>
+                    　<option value="zh_CN">CN</option>
+                    　<option value="en">ENG</option>
+                    </select> 
+                </div>
+
                 <div >
                     <ul class="nav">
                         <li>
@@ -34,16 +43,13 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         </li>
                     </ul>
                 </div>
+
                 <div>
                     <ul class="nav">
                         <li><a href="#home" data-i18n-text="arinaUniverse"></a></li>
                         <li><a href="#about" data-i18n-text="dapp"></a></li>
                         <li><a href="#service" data-i18n-text="contract"></a></li>
                     </ul>
-                </div>
-                
-                <div id="language" class="nav">
-
                 </div>
             </div>
             <div class="container">
@@ -282,10 +288,10 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div>
                         <p>Copyright&copy; 2018.GIC-COIN All Rights Reserved.</p>
                     </div>
-                    <div>
+                    <div class="footer">
                     <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="">
                     </div>
-                    <div>
+                    <div class="footer">
                         <ul class="nav">
                             <li>
                                 <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>

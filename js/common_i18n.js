@@ -72,4 +72,11 @@ let getNavLanguage = function () {
       console.log(ex);
   }
   console.log("currentLang:"+currentLang);
-  i18n(currentLang);        
+  i18n(currentLang);      
+  
+  function  changelang(){
+    var lang =  $("#language").val();
+    localStorage.setItem("currentLang",lang);
+    window.location.reload()
+    //language(lang);
+ }
