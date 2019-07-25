@@ -266,7 +266,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         <span class="future-game">ARINA SPEED</span>
                         <span class="comming">COMMING SOON</span>
                     </div>
-                    <div id="ARINAZombinawa">
+                    <div>
                         <img src="images/7commingsoon/ARINAZombinawa.png" alt="">
                         <span class="future-game">ARINA Zombinawa</span>
                         <span class="comming">COMMING SOON</span>
