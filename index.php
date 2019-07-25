@@ -34,22 +34,27 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 </div>
 
                 <div >
-                    <ul class="nav">
-                        <li>
+                    <div class="nav">
+                        <span>
                             <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href="https://twitter.com/GIC48226830"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             <a href="https://www.instagram.com/taiwan_gic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             <a href="https://www.youtube.com/channel/UCm5YE9imTe4LVGOJrSpoJ2g/featured?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
+                        </span>
+                    </div>
                 </div>
 
                 <div>
-                    <ul class="nav">
-                        <li class="nav-link"><a href="#top" data-i18n-text="arinaUniverse"></a></li>
-                        <li class="nav-link"><a href="" data-i18n-text="dapp"></a></li>
-                        <li class="nav-link"><a href="" data-i18n-text="contact"></a></li>
-                    </ul>
+                    <div class="nav">
+                        <span class="nav-link"><a href="#top" data-i18n-text="arinaUniverse"></a></span>
+                        <span class="nav-link" id="dapp-selection"><a href="" data-i18n-text="dapp"></a></span>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
+                            <li><a href="https://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
+                            <li><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></li>
+                        </ul>
+                        <span class="nav-link"><a href="" data-i18n-text="contact"></a></span>
+                    </div>
                 </div>
             </div>
             <div class="container" id="top">
@@ -331,5 +336,15 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 </html>
 
 <script>
+$("#dapp-selection ul").on("click", ".init", function() {
+    $(this).closest("ul").children('li:not(.init)').toggle();
+});
 
+var allOptions = $("#dapp-selection ul").children('li:not(.init)');
+$("#dapp-selection ul").on("click", "li:not(.init)", function() {
+    allOptions.removeClass('selected');
+    $(this).addClass('selected');
+    $("#dapp-selection ul").children('.init').html($(this).html());
+    allOptions.toggle();
+});
 </script>

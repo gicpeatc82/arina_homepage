@@ -106,11 +106,11 @@ header {
     padding: 15px 5px;
 }
   
-.nav li {
+.nav span {
     display: inline-block;
 }
 
-.nav li a {
+.nav span a {
     color: #fff;
     text-transform: capitalize;
     display: inline-block;
@@ -121,6 +121,45 @@ header {
     border: 1px solid #fff;
     border-radius: 25px;
 }
+
+#dapp-selection{
+    position: relative;
+    display: inline-block;
+    font: 2em/1em ;
+    cursor: pointer;
+    user-select: none;
+    height: 2.1em;
+}
+#dapp-selection:after{
+    content:"";
+    border-top-color: #ccc;
+    position: absolute;
+}
+#dapp-selection:hover + .list-unstyled{
+    display: block;
+}
+.list-unstyled{
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 75px;
+    right: 390px;
+}
+.list-unstyled:hover{
+    display: block;
+}
+.list-unstyled li{
+    padding:2px 5px;
+    margin:5px 0 ;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+}
+.list-unstyled li a{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
 #info-context p{
     font-variant: small-caps;
 }
@@ -150,6 +189,7 @@ header {
     color: #fff;
     background-color: #7a41d8;
     border: 0;
+    border-radius: 25px;
 }
 #language option{
     color: #fff;
