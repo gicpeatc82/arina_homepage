@@ -80,6 +80,7 @@ header {
 }
   
 #navber {
+    position: fixed;
     height: 80px;
     width: 100%;
     left: 0;
@@ -139,7 +140,15 @@ header {
     width: 100%;
     height: 790%;
 }
-
+#language{
+    color: #fff;
+    background-color: #000;
+    border: 0;
+}
+#language option{
+    color: #fff;
+    background-color: #000;
+}
 /*====================03.arina-info============*/
 #arina-info-top{
     margin-bottom:40px;
@@ -266,6 +275,8 @@ header {
 #arina-video-button img{
     margin:20% 0;
     width:30%;
+    -webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
 }
 
 /*====================05.arina-interface============*/
@@ -484,7 +495,7 @@ header {
 
 
 #dapp-listing{
-    margin-top: 90px;
+    margin-top: 80px;
     text-align:center;
 }
 #dapp-listing h3{

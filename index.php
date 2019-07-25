@@ -46,13 +46,13 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 
                 <div>
                     <ul class="nav">
-                        <li><a href="#home" data-i18n-text="arinaUniverse"></a></li>
+                        <li><a href="#top" data-i18n-text="arinaUniverse"></a></li>
                         <li><a href="#about" data-i18n-text="dapp"></a></li>
-                        <li><a href="#service" data-i18n-text="contract"></a></li>
+                        <li><a href="#service" data-i18n-text="contact"></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="container">
+            <div class="container" id="top">
                 <div class="row">
                     <div id="header-left" class="col-sm-12 col-md-8">
                         <h5 data-i18n-text="firstGame"></h5>
@@ -158,7 +158,9 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             <p id="arina-video-context" data-i18n-text="arinaVideoContext"></p>
                         </div>
                         <div id="arina-video-button"  class="col-sm-12 col-md-4">
-                            <img src="images/4ARINAYAKYUKEN/PLAYNOW.png" alt="">
+                            <a href="https://www.arinamillion.com/arinanew/">
+                                <img src="images/4ARINAYAKYUKEN/PLAYNOW.png" alt="">
+                            </a>
                         </div>
                     </div>
 
