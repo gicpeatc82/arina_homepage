@@ -80,6 +80,10 @@ header {
 }
   
 #navber {
+    background-image: url(../images/1MenuMain/ListBG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: fixed;
     height: 80px;
     width: 100%;
@@ -104,9 +108,8 @@ header {
   
 .nav li {
     display: inline-block;
-    
 }
-  
+
 .nav li a {
     color: #fff;
     text-transform: capitalize;
@@ -114,7 +117,10 @@ header {
     padding: 10px 12px;
     font-size: 20px;
 }
-
+.nav-link a:hover {
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
 #info-context p{
     font-variant: small-caps;
 }
@@ -142,12 +148,12 @@ header {
 }
 #language{
     color: #fff;
-    background-color: #000;
+    background-color: #7a41d8;
     border: 0;
 }
 #language option{
     color: #fff;
-    background-color: #000;
+    background-color: #7a41d8;
 }
 /*====================03.arina-info============*/
 #arina-info-top{
@@ -278,6 +284,7 @@ header {
     -webkit-transition: all 0.15s ease-in;
     transition: all 0.15s ease-in;
 }
+
 
 /*====================05.arina-interface============*/
 

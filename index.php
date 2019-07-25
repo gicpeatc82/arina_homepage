@@ -36,19 +36,19 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <div >
                     <ul class="nav">
                         <li>
-                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/GIC48226830"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/taiwan_gic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UCm5YE9imTe4LVGOJrSpoJ2g/featured?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
 
                 <div>
                     <ul class="nav">
-                        <li><a href="#top" data-i18n-text="arinaUniverse"></a></li>
-                        <li><a href="#about" data-i18n-text="dapp"></a></li>
-                        <li><a href="#service" data-i18n-text="contact"></a></li>
+                        <li class="nav-link"><a href="#top" data-i18n-text="arinaUniverse"></a></li>
+                        <li class="nav-link"><a href="" data-i18n-text="dapp"></a></li>
+                        <li class="nav-link"><a href="" data-i18n-text="contact"></a></li>
                     </ul>
                 </div>
             </div>
@@ -301,10 +301,10 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div class="footer">
                         <ul class="nav">
                             <li>
-                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/GIC48226830"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/taiwan_gic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.youtube.com/channel/UCm5YE9imTe4LVGOJrSpoJ2g/featured?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                             </li>
                         </ul>
                     </div>
