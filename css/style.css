@@ -21,6 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6, p {
     margin: 0px;
     padding: 0px;
+    line-height: 30px;
 }
 
 ul, ol {
@@ -103,6 +104,7 @@ header {
 }
 .nav {
     float: right;
+    margin-top:10px;
     padding: 15px 5px;
 }
   
@@ -157,13 +159,14 @@ header {
     text-align: center;
     display: none;
     position: absolute;
-    top: 50px;
+    top: 60px;
     right: 290px;
 }
 .list-unstyled:hover{
     display: block;
 }
 .list-unstyled li{
+    background-color: #ac47db;
     padding:2px 5px;
     margin:5px 0 ;
     border: 1px solid #ddd;
@@ -241,14 +244,24 @@ header {
 }
 /*====================03.arina-info============*/
 #arina-info-top{
-    margin-bottom:40px;
+    margin-top:100px;
+    margin-bottom:200px;
+}
+#info-img{
+    padding-left:100px;
+    padding-right:20px;
 }
 .info-img-item{
     display: inline-block;
-    width: 49%;
+    
     padding:0px 10px 20px 10px;
 }
-
+#info-img-item1{
+    width: 45%;
+}
+#info-img-item2{
+    width: 49%;
+}
 .info-item{
     padding:0 15px;
     
@@ -276,7 +289,13 @@ header {
 .info-context p{
     margin:5px 15px;
 }
-
+#info-top-context{
+    padding:0 20px;
+}
+#info-top-context h3{
+    font-weight:bold;
+    padding: 20px 0;
+}
 /*====================03.arina-dapp============*/
 
 .dapp-img{
@@ -296,12 +315,87 @@ header {
     padding: 25% 0;
     float:right;
 }
+@keyframes bounceInLeft {
+    from, 60%, 75%, 90%, to {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);}
+    0% {opacity: 0;transform: translate3d(-3000px, 0, 0);}
+    60% {opacity: 1;transform: translate3d(25px, 0, 0);}
+    75% {transform: translate3d(-10px, 0, 0);}
+    90% {transform: translate3d(5px, 0, 0);}
+    100% {opacity: 1;transform: none;}
+}
+#dapp-img-1, #dapp-img-2, #dapp-img-3{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    opacity: 0;
+    padding: 20px;
+}
+#dapp-img-1{
+    animation: bounceInLeft 0.5s 0.25s linear forwards;
+}
+#dapp-img-2{
+    margin-top:50%;
+    animation: bounceInLeft 0.9s 0.65s linear forwards;
+}
+#dapp-img-3{
+    animation: bounceInLeft 0.7s 0.45s linear forwards;
+}
 
 #arina-dapp-context{
-    padding: 25% 0;
+    padding: 25% 2%;
 }
 #arina-dapp-context h5{
+    margin-bottom: 20px;
     font-weight:bold;
+}
+
+.future-games{
+    margin:20px 0;
+}
+.future-games-item{
+    width: 24%;
+    margin: 0 5px;
+    padding: 0;
+    position: relative;
+}
+.future-games-item:hover{
+    background-image: linear-gradient(0deg, #5c0464, #5c0464 50%);
+}
+
+.future-games-item img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.future-games-item:hover img {
+    opacity: .6;
+}
+.future-games-item span {
+    color:#fff;
+    position: absolute;
+    font-size: 2vmin;
+    opacity: 0;
+}
+.dapp-future-game{
+    bottom: 25%;
+    left: 5%;
+}
+.dapp-comming{
+    bottom: 10%;
+    left: 5%;
+}
+.future-games-item:hover span {
+    opacity: 1;
+}
+
+#question-games{
+    width:24%;
+}
+#question-games img{
+    display: inline-block;
+    width:32%;
+    padding: 0 3px 5px 3px;
 }
 #second-title{
     margin: 5% 10%;
@@ -413,6 +507,10 @@ header {
 .interface-logo {
     margin-bottom: 15px;
 }
+.interface-context h5{
+    font-weight:bold;
+    margin-bottom: 20px;
+}
 #androidDownload, #iosDownload, #website{
     display: inline-block;
     margin : 5px;
@@ -428,6 +526,7 @@ header {
 }
 #iosDownload p{
     font-size: 3px;
+    line-height: 18px;
 }
 #androidDownload a, #website a{
     display: block;
@@ -498,7 +597,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    position: relative;
     width: 100%;
     height: 15%;
 }
@@ -522,13 +621,13 @@ header {
 #arina-million-context p{
     text-shadow: 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight:bold;
 }
 
 #arina-million-notice{
-    position: relative;
-    top: 60px;
+    position: absolute;
+    bottom: 1%;
     left: 82%;
     width: 15%;
 }
@@ -589,11 +688,11 @@ header {
     opacity: 0;
 }
 .future-game{
-    bottom: 10%;
+    bottom: 14%;
     left: 5%;
 }
 .comming{
-    bottom: 1%;
+    bottom: 5%;
     left: 5%;
 }
 #future-game div:hover span {
@@ -639,11 +738,11 @@ header {
 #footer div {
     display: inline-block;
     width: 33%;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 #footer .nav a{
     padding: 0 10px;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
 }

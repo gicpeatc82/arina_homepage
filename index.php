@@ -43,7 +43,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 </div>
 
                 <div class="nav" id="nav-link">
-                    <span class="nav-link"><a href="#top" data-i18n-text="arinaUniverse"></a></span>
+                    <span class="nav-link"><a href="#top" >ARINA UNIVERSE</a></span>
                     <span class="nav-link" id="dapp-selection"><a href="" data-i18n-text="dapp"></a></span>
                     <ul class="list-unstyled">
                         <li><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
@@ -72,10 +72,10 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <div class="container">
                     <div class="row" id="arina-info-top">
                         <div id="info-img" class="col-sm-12 col-md-5">
-                            <div class="info-img-item">
+                            <div class="info-img-item" id="info-img-item1">
                                 <img src="images/2WhatisARINAUNIVERSE/ARINALOGO.png" alt="">
                             </div>
-                            <div class="info-img-item">
+                            <div class="info-img-item" id="info-img-item2">
                                 <img src="images/2WhatisARINAUNIVERSE/GIClogo.png" alt="">
                             </div>
                             
@@ -124,12 +124,18 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div class="row">
                         <div class="col-sm-12 col-md-8">
                             <div class="dapp-img" id="dapp-img-left">
-                                <img src="images/3OurDAPP/ARINAYAKYUKEN.png" alt="">
-                                <img src="images/3OurDAPP/ARINASCRATCH.png" alt="">
+                                <a href="https://www.arinamillion.com/arinanew/">
+                                <img id="dapp-img-1" src="images/3OurDAPP/ARINAYAKYUKEN.png" alt="">
+                                </a>
+                                <a href="https://www.arinamillion.com/arinatycoonnew/scratch/">
+                                <img id="dapp-img-2" src="images/3OurDAPP/ARINASCRATCH.png" alt="">
+                                </a>
                             </div>
                             <div class="dapp-img" id="dapp-img-right">
                                 <div></div>
-                                <img src="images/3OurDAPP/ARINALANDTYCOON.png" alt="">
+                                <a href="http://www.arinatycoon.com/maingame.php">
+                                <img id="dapp-img-3" src="images/3OurDAPP/ARINALANDTYCOON.png" alt="">
+                                </a>
                             </div>
                         </div>
                         <div id="arina-dapp-context"  class="col-sm-12 col-md-4">
@@ -138,6 +144,31 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         </div>
                     </div>
 
+                    <div class="row future-games">
+                        <div class="future-games-item">
+                            <img src="images/3OurDAPP/ARINAHUNTERS.png" alt="">
+                            <span class="dapp-future-game">ARINA HUNTERS</span> 
+                            <span class="dapp-comming">COMMING SOON</span>         
+                        </div>
+                        <div class="future-games-item">
+                            <img src="images/3OurDAPP/ARINASPEED.png" alt="">
+                            <span class="dapp-future-game">ARINA SPEED</span>
+                            <span class="dapp-comming">COMMING SOON</span>
+                        </div>
+                        <div class="future-games-item">
+                            <img src="images/3OurDAPP/ARINAZombinawa.png" alt="">
+                            <span class="dapp-future-game">ARINA Zombinawa</span>
+                            <span class="dapp-comming">COMMING SOON</span>
+                        </div>
+                        <div id="question-games">
+                            <img src="images/3OurDAPP/00.png" alt="">
+                            <img src="images/3OurDAPP/00.png" alt="">
+                            <img src="images/3OurDAPP/00.png" alt="">
+                            <img src="images/3OurDAPP/00.png" alt="">
+                            <img src="images/3OurDAPP/00.png" alt="">
+                            <img src="images/3OurDAPP/00.png" alt="">
+                        </div>
+                    </div>
                     <div id="second-title">
                         <img src="images/3OurDAPP/ARINALOGO.png" alt="">
                     </div>
@@ -296,8 +327,9 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 </div>
 
                 <div id="footer">
-                    <div>
+                    <div class="copyright">
                         <p>Copyright&copy; 2018.GIC-COIN All Rights Reserved.</p>
+                        <div></div>
                     </div>
                     <div class="footer">
                     <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="">
