@@ -34,7 +34,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 </div>
 
                 <div class="nav">
-                    <span>
+                    <span class="social">
                         <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a href="https://twitter.com/GIC48226830"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/taiwan_gic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -57,7 +57,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             <div class="container" id="top">
                 <div class="row">
                     <div id="header-left" class="col-sm-12 col-md-8">
-                        <h5 data-i18n-text="firstGame"></h5>
+                        <h5 class="button0" data-i18n-text="firstGame"></h5>
                         <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="logo">
                     </div>
                     <div id="header-right" class="col-sm-12 col-md-4">
@@ -197,13 +197,13 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 
                         <div class="button-group">
                             <div id="androidDownload">
-                            <a href="" >
-                                <p data-i18n-text="androidDownload"></p>
-                            </a>
+                                <a href="" >
+                                    <p data-i18n-text="androidDownload"></p>
+                                </a>
                             </div>
                             
                             <div id="website">
-                                <a href="">
+                                <a href="http://www.arinatycoon.com/maingame.php">
                                     <p data-i18n-text="website"></p>
                                 </a>
                             </div>

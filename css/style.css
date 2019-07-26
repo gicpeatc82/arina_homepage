@@ -114,11 +114,23 @@ header {
     color: #fff;
     text-transform: capitalize;
     display: inline-block;
-    padding: 10px 12px;
+    /* padding: 10px 12px; */
     font-size: 20px;
+    font-weight:bold;
+}
+.social a{
+    padding:0 5px;
 }
 #nav-link{
-    margin-top:-10px;
+}
+#nav-link span{
+    margin: 0;
+}
+.nav-link{
+    padding: 0;
+}
+.nav-link a{
+    padding:2px 15px;
 }
 .nav-link a:hover {
     border: 1px solid #fff;
@@ -145,8 +157,8 @@ header {
     text-align: center;
     display: none;
     position: absolute;
-    top: 65px;
-    right: 390px;
+    top: 50px;
+    right: 290px;
 }
 .list-unstyled:hover{
     display: block;
@@ -177,7 +189,34 @@ header {
     border-radius: 25px;
     padding:5px 20px;
     font-weight:bold;
+    text-align: center;
 }
+
+.button0 {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.25s;
+}
+
+.button0:after {
+    content: "";
+    display: inline-block;
+    width: 65px;
+    height: 200%;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+}
+.button0:hover:after {
+    transition: all 1.45s ease-in-out;
+    left: 150%;
+}
+
 #middle-part{
     left: 0;
     right: 0;
@@ -193,7 +232,8 @@ header {
     background-color: #7a41d8;
     border: 0;
     border-radius: 25px;
-    margin-top: 5px;
+    margin-top: -5px;
+    margin-right: 10px;
 }
 #language option{
     color: #fff;
@@ -208,9 +248,7 @@ header {
     width: 49%;
     padding:0px 10px 20px 10px;
 }
-.info-img-item img{
-    
-}
+
 .info-item{
     padding:0 15px;
     
@@ -364,7 +402,7 @@ header {
     height: 15%;
 }
 #arina-interface .container{
-    width: 95%;
+    width: 98%;
 }
 
 .interface-icon img{
@@ -377,8 +415,8 @@ header {
 }
 #androidDownload, #iosDownload, #website{
     display: inline-block;
-    margin : 10px;
-    width: 40%;
+    margin : 5px;
+    width: 45%;
     text-align: center;
 }
 
@@ -605,5 +643,7 @@ header {
 }
 
 #footer .nav a{
+    padding: 0 10px;
+    color: #fff;
     font-size: 20px;
 }
