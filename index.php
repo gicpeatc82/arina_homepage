@@ -390,5 +390,15 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 $('.dapp-img-a').removeClass('demo_animated');
             }
         });
+
+        $(".info-context").hover(
+            function(){
+            console.log("hover");
+            $(this).addClass('info-context-hover');
+        }, function(){
+            $(this).removeClass('info-context-hover');
+        });
     });
+
+    
 </script>

@@ -270,8 +270,12 @@ header {
 .info-context{
     text-align: center;
     background-color: #e9e0ff;
-    padding:20px 0;
+    padding:20px 5px;
     height: 100%;
+}
+.info-context-hover{
+    margin-top:-5px;
+    box-shadow: 10px 10px 5px #888;
 }
 
 .info-context-img{
@@ -289,6 +293,8 @@ header {
 .info-context p{
     margin:5px 15px;
 }
+
+
 #info-top-context{
     padding:0 20px;
 }
