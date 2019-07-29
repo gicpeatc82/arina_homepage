@@ -316,30 +316,26 @@ header {
     float:right;
 }
 @keyframes bounceInLeft {
-    from, 60%, 75%, 90%, to {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);}
+    /* from, 60%, 75%, 90%, to {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);} */
     0% {opacity: 0;transform: translate3d(-3000px, 0, 0);}
     60% {opacity: 1;transform: translate3d(25px, 0, 0);}
     75% {transform: translate3d(-10px, 0, 0);}
     90% {transform: translate3d(5px, 0, 0);}
     100% {opacity: 1;transform: none;}
 }
-#dapp-img-1, #dapp-img-2, #dapp-img-3{
+.demo_animated{
     position: absolute;
     width: 50%;
     height: 50%;
     opacity: 0;
     padding: 20px;
+    animation: bounceInLeft 0.9s linear forwards;
 }
-#dapp-img-1{
-    animation: bounceInLeft 0.5s 0.25s linear forwards;
-}
+
 #dapp-img-2{
     margin-top:50%;
-    animation: bounceInLeft 0.9s 0.65s linear forwards;
 }
-#dapp-img-3{
-    animation: bounceInLeft 0.7s 0.45s linear forwards;
-}
+
 
 #arina-dapp-context{
     padding: 25% 2%;

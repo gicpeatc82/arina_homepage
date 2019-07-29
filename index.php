@@ -124,17 +124,17 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div class="row">
                         <div class="col-sm-12 col-md-8">
                             <div class="dapp-img" id="dapp-img-left">
-                                <a href="https://www.arinamillion.com/arinanew/">
-                                <img id="dapp-img-1" src="images/3OurDAPP/ARINAYAKYUKEN.png" alt="">
+                                <a class="dapp-img-a" id="dapp-img-1" href="https://www.arinamillion.com/arinanew/">
+                                <img src="images/3OurDAPP/ARINAYAKYUKEN.png" alt="">
                                 </a>
-                                <a href="https://www.arinamillion.com/arinatycoonnew/scratch/">
-                                <img id="dapp-img-2" src="images/3OurDAPP/ARINASCRATCH.png" alt="">
+                                <a class="dapp-img-a" id="dapp-img-2" href="https://www.arinamillion.com/arinatycoonnew/scratch/">
+                                <img  src="images/3OurDAPP/ARINASCRATCH.png" alt="">
                                 </a>
                             </div>
                             <div class="dapp-img" id="dapp-img-right">
                                 <div></div>
-                                <a href="http://www.arinatycoon.com/maingame.php">
-                                <img id="dapp-img-3" src="images/3OurDAPP/ARINALANDTYCOON.png" alt="">
+                                <a class="dapp-img-a" id="dapp-img-3" href="http://www.arinatycoon.com/maingame.php">
+                                <img src="images/3OurDAPP/ARINALANDTYCOON.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -367,15 +367,28 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 </html>
 
 <script>
-$("#dapp-selection ul").on("click", ".init", function() {
-    $(this).closest("ul").children('li:not(.init)').toggle();
-});
+    $("#dapp-selection ul").on("click", ".init", function() {
+        $(this).closest("ul").children('li:not(.init)').toggle();
+    });
 
-var allOptions = $("#dapp-selection ul").children('li:not(.init)');
-$("#dapp-selection ul").on("click", "li:not(.init)", function() {
-    allOptions.removeClass('selected');
-    $(this).addClass('selected');
-    $("#dapp-selection ul").children('.init').html($(this).html());
-    allOptions.toggle();
-});
+    var allOptions = $("#dapp-selection ul").children('li:not(.init)');
+    $("#dapp-selection ul").on("click", "li:not(.init)", function() {
+        allOptions.removeClass('selected');
+        $(this).addClass('selected');
+        $("#dapp-selection ul").children('.init').html($(this).html());
+        allOptions.toggle();
+    });
+
+
+
+    $(function(){
+        $(window).scroll(function () {
+            var scrollVal = $(this).scrollTop();
+            if (scrollVal > 1440) {
+                $('.dapp-img-a').addClass('demo_animated');
+            } else {
+                $('.dapp-img-a').removeClass('demo_animated');
+            }
+        });
+    });
 </script>
