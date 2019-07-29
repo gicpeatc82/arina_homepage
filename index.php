@@ -259,7 +259,9 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             <section id="arina-million">
                 <div>
                     <div id="million-free">
-                        <img id="million-free" src="images/6ARINASCRATCH/ClickForFREE.gif">
+                        <a href="https://www.arinamillion.com/arinatycoonnew/scratch/">
+                            <img id="million-free" src="images/6ARINASCRATCH/ClickForFREE.gif">
+                        </a>
                     </div>
                     <div id="arina-million-context">
                     
@@ -384,21 +386,25 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
     $(function(){
         $(window).scroll(function () {
             var scrollVal = $(this).scrollTop();
+            console.log(scrollVal);
             if (scrollVal > 1440) {
                 $('.dapp-img-a').addClass('demo_animated');
             } else {
                 $('.dapp-img-a').removeClass('demo_animated');
             }
-        });
-
-        $(".info-context").hover(
-            function(){
-            console.log("hover");
-            $(this).addClass('info-context-hover');
-        }, function(){
-            $(this).removeClass('info-context-hover');
+            if (scrollVal > 0) {
+                $('#navber').addClass('navber');
+            } else {
+                $('#navber').removeClass('navber');
+            }
         });
     });
 
+    $(".info-context").hover(
+        function(){
+            $(this).addClass('info-context-hover');
+        }, function(){
+            $(this).removeClass('info-context-hover');
+    });
     
 </script>
