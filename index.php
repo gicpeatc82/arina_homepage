@@ -265,24 +265,33 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     </div>
                     <div id="arina-million-context">
                     
-                        <p data-i18n-text="millionContext_1"></p>
-                        <p data-i18n-text="millionContext_2"></p>
-                        <p data-i18n-text="millionContext_3"></p>
+                        <span data-i18n-text="millionContext_1"></span>
                         <br>
-                        <p data-i18n-text="millionContext_4"></p>
-                        <p data-i18n-text="millionContext_5"></p>
-                        <p data-i18n-text="millionContext_6"></p>
-                        <p data-i18n-text="millionContext_7"></p>
+                        <span data-i18n-text="millionContext_2"></span>
                         <br>
-                        <p data-i18n-text="millionContext_8"></p>
-                        <p data-i18n-text="millionContext_9"></p>
-                        <p data-i18n-text="millionContext_10"></p>
-                    
+                        <span data-i18n-text="millionContext_3"></span>
+                        <br>
+                        <br>
+                        <span data-i18n-text="millionContext_4"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_5"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_6"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_7"></span>
+                        <br>
+                        <br>
+                        <span data-i18n-text="millionContext_8"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_9"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_10"></span>
+                        <br>
                     </div>
 
                     <div id="arina-million-notice">
-                        <p data-i18n-text="millionNotice_1"></p>
-                        <p data-i18n-text="millionNotice_2"></p>
+                        <span data-i18n-text="millionNotice_1"></span>
+                        <span data-i18n-text="millionNotice_2"></span>
                     </div>
                 </div>
                 
