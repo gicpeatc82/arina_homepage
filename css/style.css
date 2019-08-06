@@ -529,24 +529,26 @@ header {
     height: 15%;
 }
 #arina-interface .container{
-    width: 98%;
+    width: 100%;
 }
-
+.interface-left-logo{
+    padding:0 20%;
+}
 .interface-icon img{
     padding-left: 30%;
-    margin-bottom: 15px;
+    margin-bottom: 1%;
     width: 60%;
 }
 .interface-logo {
-    margin-bottom: 15px;
+    margin-bottom: 1%;
 }
 .interface-context h5{
     font-weight:bold;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
 }
 #androidDownload, #iosDownload, #website{
     display: inline-block;
-    margin : 5px;
+    margin : 1%;
     width: 45%;
     text-align: center;
 }
@@ -612,6 +614,7 @@ header {
 
 
 #interface-macbook{
+    padding:20% 0;
     width:100%;
 }
 #interface-iPhone{
