@@ -7,6 +7,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
         <title>Arina Blockchain Game Universe</title>
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -180,7 +181,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12 col-md-8">
+                        <div class="col-sm-10 col-md-7">
                             <h1 id="arina-video-title">ARINA YAKYUKEN</h1>
                             <div class="video-container">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/W1S7vUCfaEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -191,7 +192,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             <p id="arina-video-context" data-i18n-text="arinaVideoContext"></p>
                         </div>
                         
-                        <div id="arina-video-button"  class="col-sm-12 col-md-4">
+                        <div id="arina-video-button"  class="col-sm-2 col-md-5">
                             <div class="beforebutton"></div>
                             <a class="button1" href="https://www.arinamillion.com/arinanew/">
                                 <img src="images/4ARINAYAKYUKEN/PLAYNOW.png" alt="">
@@ -256,8 +257,9 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             </section>
 
     <!--------arina-million------------------------------------------------>
-            <section id="arina-million">
-                <div>
+            <section id="arina-million" class="clearfix">
+                <div class="arina-million-div">
+                    <img src="images/6ARINASCRATCH/millionBG.jpg" alt="">
                     <div id="million-free">
                         <a href="https://www.arinamillion.com/arinatycoonnew/scratch/">
                             <img id="million-free" src="images/6ARINASCRATCH/ClickForFREE.gif">
@@ -287,10 +289,12 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         <br>
                         <span data-i18n-text="millionContext_10"></span>
                         <br>
+                        <br>
                     </div>
 
                     <div id="arina-million-notice">
                         <span data-i18n-text="millionNotice_1"></span>
+                        <br>
                         <span data-i18n-text="millionNotice_2"></span>
                     </div>
                 </div>

@@ -44,13 +44,13 @@ img {
 
 .container {
     width: 85%;
-    max-width: 1170px;
+    /* max-width: 1170px; */
     margin: 0 auto;
     position: relative;
     }
 
 section {
-    padding: 100px 0;
+    padding: 5% 0;
 }
 
 .clearfix::after {
@@ -404,30 +404,36 @@ header {
 
 /*====================04.arina-video============*/
 #arina-video{
+    height: 80vh;
     background-image: url(../images/4ARINAYAKYUKEN/VideoARINAYAKYUKEN.png);
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    padding:5px 0;
+    padding: 0;
+}
+#arina-video .row{
+    position: relative;
+    top:5%;
+    left:1%;
+    bottom:0%;
 }
 #arina-video-title{
-    height: 13%;
+    position: relative;
+    top:5%;
     text-align: center;
     color: #fff;
     padding:15px 0;
 }
 #arina-video .container{
     display: table;
-    width: 110%;
+    width: 100%;
     height: 100%;
     position: relative;
 }
 .video-container {
-    margin:35px 20px 0 0;
+    margin:7% 0 0 1%;
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px;
+    padding-top: 0;
     height: 0;
     overflow: hidden;
 }
@@ -435,8 +441,8 @@ header {
 .video-container iframe, .video-container object, .video-container embed {
     position: absolute;
     top: 0;left: 0;
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
 }
 
 #YAKYUKENLOGO{
@@ -448,13 +454,14 @@ header {
 }
 
 #arina-video-context{
-    margin:0 70px 0 200px;
+    margin:0 4% 0 25%;
     color: #fff;
     font-size: 0.7em;
     line-height: 22px;
+    
 }
 .beforebutton{
-    height:80px;
+    height:10%;
 }
 .button1 {
     box-sizing: border-box;
@@ -591,7 +598,7 @@ header {
 
 /*====================06.arina-million============*/
 #arina-million{
-    left: 0;
+    /* left: 0;
     right: 0;
     
     height: 100%;
@@ -599,44 +606,71 @@ header {
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative; */
+    padding:0;
+    margin-bottom:10%;
+    height:100%;
+}
+
+.arina-million-div{
+    float:left;
     position: relative;
+}
+.arina-million-div img{
+    z-index:0;
 }
 
 #million-free{
-    position: relative;
-    left: 80%;
-    top:40%;
+    position: absolute;
+    left: 60%;
+    top:3%;
     width: 35%;
-    transform: translate(-50%, -50%);
-}
-#million-free img {
+    
 }
 
+
 #arina-million-context{
-    position: relative;
+    position: absolute;
+    top:25%;
     left: 82%;
-    width: 15%;
+    width: 17%;
 }
 
 #arina-million-context span{
-    text-shadow: 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        2px 2px 2px #000;
     color: #fff;
     font-size: 1.7vmin;
+    line-height: 1%;
     font-weight:bold;
+    margin:-1%;
+    padding:0;
 }
 
 #arina-million-notice{
     position: absolute;
     bottom: 1%;
     left: 82%;
-    width: 15%;
+    width: 17%;
 }
 
 #arina-million-notice span{
-    text-shadow: 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000, 0px 0px 10px #000;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        2px 2px 2px #000;
     color: #fff;
+    line-height: 0.1%;
     font-size: 1vmin;
     font-weight:bold;
+    margin:-1%;
+    padding:0;
 }
 
 /*====================07.comming-soon============*/
