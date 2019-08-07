@@ -557,6 +557,10 @@ header {
 }
 #arina-interface .container{
     width: 100%;
+    max-width: 1920px;
+}
+.interface-left{
+    padding-left:5%;
 }
 .interface-left-logo{
     padding:0 20%;
@@ -639,18 +643,15 @@ header {
     text-transform: capitalize;
 }
 
-
+#arina-interface-img{
+    padding:0;
+    margin:0;
+}
 #interface-macbook{
     padding:20% 0;
     width:100%;
 }
-#interface-iPhone{
-    position: absolute;
-    left: 17%;
-    top: 65%;
-    width: 40%;
-    transform: translate(-50%, -50%);
-}
+
 
 /*====================06.arina-million============*/
 #arina-million{
@@ -989,7 +990,7 @@ header {
     }
     
     #header-left img{
-        visibility:hidden;
+        visibility:visible;
     }
     .navbar-brand{
         visibility:hidden;
@@ -1031,7 +1032,7 @@ header {
         display:block;
     }
     #header-left img{
-        visibility:hidden;
+        visibility:visible;
     }
     
     .navbar-brand{
