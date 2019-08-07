@@ -277,7 +277,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <img src="images/6ARINASCRATCH/millionBG.jpg" alt="">
                     <div id="million-free">
                         <a href="https://www.arinamillion.com/arinatycoonnew/scratch/">
-                            <img id="million-free" src="images/6ARINASCRATCH/ClickForFREE.gif">
+                            <img src="images/6ARINASCRATCH/ClickForFREE.gif">
                         </a>
                     </div>
                     <div id="arina-million-context">
@@ -316,6 +316,49 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 
             </section>
 
+            <section class="s-model s-model-arina-million">
+                <div class="container">
+                    <div id="s-model-million-free">
+                        <a href="https://www.arinamillion.com/arinatycoonnew/scratch/">
+                            <img src="images/6ARINASCRATCH/ClickForFREE.gif">
+                        </a>
+                    </div>
+                    <div id="s-model-arina-million-context">
+                        <span data-i18n-text="millionContext_1"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_2"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_3"></span>
+                        <br>
+                        <br>
+                        <span data-i18n-text="millionContext_4"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_5"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_6"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_7"></span>
+                        <br>
+                        <br>
+                        <span data-i18n-text="millionContext_8"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_9"></span>
+                        <br>
+                        <span data-i18n-text="millionContext_10"></span>
+                        <br>
+                        <br>
+                        
+                    </div>
+
+                    <div id="s-model-arina-million-notice">
+                        <span data-i18n-text="millionNotice_1"></span>
+                        <br>
+                        <span data-i18n-text="millionNotice_2"></span>
+                    </div>
+                </div>                
+            </section>
+
+        <!--------comming-soon------------------------------------------------>
             <section id="comming-soon">
                 <p data-i18n-text="commingSoon_1"></p>
                 <p data-i18n-text="commingSoon_2"></p>
@@ -432,6 +475,11 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
         if(width<970){
             $("#arina-video-context").hide();
             $(".w-button").hide();
+            
+            $("#million-free").hide();
+            $("#arina-million-context").hide();
+            $("#arina-million-notice").hide();
+
             $(".s-model").show();
         }
     });
