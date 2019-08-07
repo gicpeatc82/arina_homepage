@@ -279,7 +279,6 @@ header {
 
 .info-context-hover{
     margin-top:-5px;
-    box-shadow: 10px 10px 5px #888;
 }
 
 .info-context-img{
@@ -895,6 +894,13 @@ header {
     #info-img{
         padding:0 30%;
     }
+    .info-item{
+        padding:3% 10%;
+        margin:3% 0;
+    }
+    #arina-dapp-img{
+        height: 30vh;
+    }
 }
 
 
@@ -913,6 +919,13 @@ header {
     }
     #info-img{
         padding:0 20%;
+    }
+    .info-item{
+        padding:3% 10%;
+        margin:5% 0;
+    }
+    #arina-dapp-img{
+        height: 65vh;
     }
 }
 
@@ -935,6 +948,10 @@ header {
     #info-img{
         padding:0 2%;
     }
+    .info-item{
+        padding:3% 1%;
+        margin:5% 0;
+    }
 }
 
 @media (min-width: 992px) {
@@ -943,6 +960,10 @@ header {
     }
     .navbar-brand{
         visibility:hidden
+    }
+    .info-item{
+        padding:3% 1%;
+        margin:5% 0;
     }
 }
 

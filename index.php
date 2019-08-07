@@ -179,7 +179,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             <section id="arina-dapp">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12 col-md-8">
+                        <div id="arina-dapp-img" class="col-sm-12 col-md-8">
                             <div class="dapp-img" id="dapp-img-left">
                                 <a class="dapp-img-a" id="dapp-img-1" href="https://www.arinamillion.com/arinanew/">
                                 <img src="images/3OurDAPP/ARINAYAKYUKEN.png" alt="">
