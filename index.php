@@ -181,7 +181,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <img src="images/4ARINAYAKYUKEN/VideoARINAYAKYUKEN.png" alt="">
                 <div class="arina-video-container clearfix">
                     <div class="row">
-                        <div class="col-sm-12 col-md-7 arina-video-left ">
+                        <div class="col-sm-10 col-md-7 arina-video-left ">
                             <h1 id="arina-video-title">ARINA YAKYUKEN</h1>
                             <div class="video-container">
                                 <iframe style="width:100%; height:100%;" src="https://www.youtube.com/embed/W1S7vUCfaEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -194,10 +194,11 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             
                         </div>
                         
-                        <div id="arina-video-button"  class="col-sm-12 col-md-5">
+                        <div id="arina-video-button"  class="col-sm-2 col-md-5">
                             <div class="beforebutton"></div>
                             <a class="w-button button1" href="https://www.arinamillion.com/arinanew/">
-                                <img src="images/4ARINAYAKYUKEN/PLAYNOW.png" alt="">
+                                
+                                <p>PLAY NOW!</p>
                             </a>
                         </div>
                     </div>
@@ -212,7 +213,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <p data-i18n-text="arinaVideoContext"></p>
                 </div>
                 <a class="s-button button1" href="https://www.arinamillion.com/arinanew/">
-                    <img src="images/4ARINAYAKYUKEN/PLAYNOW.png" alt="">
+                <p>PLAY NOW!</p>
                 </a>
                 </div>                
                 
