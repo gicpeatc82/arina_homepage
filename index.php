@@ -225,6 +225,8 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             <img src="images/3OurDAPP/00.png" alt="">
                             <img src="images/3OurDAPP/00.png" alt="">
                         </div>
+                        
+                        
                     </div>
                     <div id="second-title">
                         <img src="images/3OurDAPP/ARINALOGO.png" alt="">

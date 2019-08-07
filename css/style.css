@@ -345,8 +345,8 @@ header {
 }
 
 #arina-dapp-context{
-    margin-top: 70px;
-    padding: 25% 2%;
+    margin-top: 2%;
+    padding: 25% 2% 5% 0;
 }
 #arina-dapp-context h5{
     margin-bottom: 20px;
@@ -354,12 +354,12 @@ header {
 }
 
 .future-games{
-    margin:20px 0;
+    margin:3% 0;
 }
 .future-games-item{
     width: 24%;
-    margin: 0 5px;
-    padding: 0;
+    margin: 0;
+    padding: 0 1%;
     position: relative;
 }
 .future-games-item:hover{
@@ -402,7 +402,7 @@ header {
     padding: 0 3px 5px 3px;
 }
 #second-title{
-    margin: 5% 10%;
+    margin: 5% 0;
 }
 
 /*====================04.arina-video============*/
@@ -899,7 +899,15 @@ header {
         margin:3% 0;
     }
     #arina-dapp-img{
-        height: 30vh;
+        height: 80vh;
+    }
+    .future-games-item, #question-games{
+        padding:1% ;
+        width: 49%;
+    }
+    #arina-dapp-context{
+        margin:10% 0;
+        padding:0 10%;
     }
 }
 
@@ -925,7 +933,15 @@ header {
         margin:5% 0;
     }
     #arina-dapp-img{
-        height: 65vh;
+        height: 85vh;
+    }
+    .future-games-item, #question-games{
+        padding:1% ;
+        width: 49%;
+    }
+    #arina-dapp-context{
+        margin:0;
+        padding: 25% 2% 5% 0;
     }
 }
 
@@ -951,6 +967,10 @@ header {
     .info-item{
         padding:3% 1%;
         margin:5% 0;
+    }
+    .future-games-item, #question-games{
+        
+        width: 24%;
     }
 }
 
