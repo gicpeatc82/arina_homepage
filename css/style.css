@@ -837,7 +837,7 @@ header {
 
 
 #dapp-listing{
-    margin-top: 80px;
+    margin-top: 10%;
     text-align:center;
 }
 #dapp-listing h3{
@@ -848,7 +848,7 @@ header {
 #dapp-listing div{
     display: inline-block;
     
-    padding: 0 40px;
+    padding: 0 3%;
 }
 #dapp-listing img {
     filter: brightness(2000)contrast(50)saturate(0);
@@ -862,23 +862,26 @@ header {
 .big-dapp{
     width: 28%;
 }
+
 #footer {
     margin-top:20px;
-    margin-top: 100px;
-    width:95%;
     color: #fff;
+    text-align: center
 }
-#footer div {
-    display: inline-block;
-    width: 33%;
-    padding: 0 30px;
+#footer .container{
+    width:95%;
 }
 
 #footer .nav a{
     padding: 0 10px;
     color: #fff;
-    font-size: 30px;
+    font-size: 4vmin;
 }
+.footer img{
+    max-width: 250px;
+}
+
+
 
 
 @media (min-width: 1px) {
@@ -925,7 +928,10 @@ header {
         margin:10% 0;
         padding:0 10%;
     }
-
+    #footer .container .row div{
+        padding:0 15%;
+    }
+    
 }
 
 
@@ -973,6 +979,10 @@ header {
         margin:0;
         padding: 25% 2% 5% 0;
     }
+    
+    #footer .container .row div{
+        padding:0;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1018,6 +1028,9 @@ header {
     .future-games-item, #question-games{
         
         width: 24%;
+    }
+    #footer .container .row div{
+        padding:0;
     }
 }
 

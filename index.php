@@ -470,23 +470,37 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 </div>
 
                 <div id="footer">
-                    <div class="copyright">
-                        <p>Copyright&copy; 2018.GIC-COIN All Rights Reserved.</p>
-                        <div></div>
+                    <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4">
+                            <div class="copyright">
+                                <p>Copyright&copy; 2018.GIC-COIN All Rights Reserved.</p>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                            <div class="footer">
+                            <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                            <div class="footer">
+                                <ul class="nav">
+                                    <li>
+                                        <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="https://twitter.com/GIC48226830"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/taiwan_gic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href="https://www.youtube.com/channel/UCm5YE9imTe4LVGOJrSpoJ2g/featured?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="footer">
-                    <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="">
                     </div>
-                    <div class="footer">
-                        <ul class="nav">
-                            <li>
-                                <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="https://twitter.com/GIC48226830"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="https://www.instagram.com/taiwan_gic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="https://www.youtube.com/channel/UCm5YE9imTe4LVGOJrSpoJ2g/featured?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+                    
+
+                    
+                    
                 </div>
             </section>
         </div>
