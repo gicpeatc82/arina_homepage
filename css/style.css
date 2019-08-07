@@ -94,7 +94,9 @@ header {
     right: 0;
     z-index: 10;
 }
-
+.nav-item-hide{
+    display:none;
+}
 #logo {
     float: left;
     padding:1% 0 1% 2%;
@@ -153,9 +155,7 @@ header {
     border-top-color: #ccc;
     position: absolute;
 }
-#dapp-selection:hover + .list-unstyled{
-    display: block;
-}
+
 .list-unstyled{
     display: none;
     text-align: center;
@@ -163,9 +163,7 @@ header {
     top: 76%;
     right: 45%;
 }
-.list-unstyled:hover{
-    display: block;
-}
+
 .list-unstyled li{
     background-color: #ac47db;
     padding:2px 5px;
@@ -241,6 +239,7 @@ header {
     border-radius: 25px;
     margin-top: -2%;
     margin-right: 5%;
+    font-size:2.5vmin;
     font-weight:bold;
 }
 #language option{
@@ -885,8 +884,21 @@ header {
     header {
         height: 40%;
     }
+    
+    #dapp-selection:hover + .list-unstyled{
+        display:none;
+    }
+    #dapp-selection{
+        display:none;
+    }
+    .nav-item-hide{
+        display:block;
+    }
+    #header-left img{
+        visibility:hidden;
+    }
     .navbar-collapse{
-        height:25vh;
+        height:55vh;
     }
     .nav-item{
         margin:3% 0;
@@ -920,8 +932,21 @@ header {
     header {
         height: 65%;
     }
+    #dapp-selection:hover + .list-unstyled{
+    display:none;
+    }
+    #dapp-selection{
+        display:none;
+    }
+    .nav-item-hide{
+        display:block;
+    }
+    #header-left img{
+        visibility:hidden;
+    }
+    
     .navbar-collapse{
-        height:35vh;
+        height:70vh;
     }
     .nav-item{
         margin:3% 0;
@@ -953,6 +978,22 @@ header {
     header {
         height: 90%;
     }
+    #dapp-selection:hover + .list-unstyled{
+        display:block;
+    }
+    #dapp-selection{
+        display:block;
+    }
+    .nav-item-hide{
+        display:none;
+    }
+    
+    #header-left img{
+        visibility:hidden;
+    }
+    .navbar-brand{
+        visibility:hidden;
+    }
     .navbar-collapse{
         height:auto;
     }
@@ -983,6 +1024,19 @@ header {
     header {
         height: 100%;
     }
+    #dapp-selection:hover + .list-unstyled{
+        display:block;
+    }
+    #dapp-selection{
+        display:block;
+    }
+    #header-left img{
+        visibility:hidden;
+    }
+    
+    .navbar-brand{
+        visibility:visible;
+    }
     #arina-dapp-img{
         height: 125vh;
     }
@@ -996,6 +1050,16 @@ header {
     header {
         height: 100%;
     }
+    #header-left img{
+        visibility:visible;
+    }
+    #dapp-selection:hover + .list-unstyled{
+        display:block;
+    }
+    #dapp-selection{
+        display:block;
+    }
+
     .nav-link{
         padding:0;
     }

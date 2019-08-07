@@ -52,6 +52,17 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             </ul>
                         </li>
                         
+                        <li class="nav-item nav-item-hide">
+                        <span class="nav-link"><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></span>
+                            
+                        </li>
+                        <li class="nav-item nav-item-hide">
+                            <span class="nav-link"><a href="https://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></span>
+                        </li>
+                        <li class="nav-item nav-item-hide">
+                            <span class="nav-link"><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></span>
+                        </li>
+
                         <li class="nav-item">
                             <span class="nav-link"><a href="" data-i18n-text="contact"></a></span>
                         </li>
@@ -542,6 +553,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             $("#arina-million-notice").hide();
 
             $(".s-model").show();
+
         }
     });
 
@@ -552,4 +564,13 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             $(this).removeClass('info-context-hover');
     });
     
+    $('.navbar-toggler').click(function () {
+        $('#navber').addClass('navber');
+    });
+
+    
+
+    
+
+
 </script>
