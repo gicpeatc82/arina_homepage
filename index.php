@@ -39,39 +39,39 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         
-                                <li class="nav-item">
-                                    <span class="nav-link"><a href="#top" >ARINA UNIVERSE</a></span>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <span class="nav-link" id="dapp-selection"><a href="" data-i18n-text="dapp"></a></span>
-                                    <ul class="list-unstyled">
-                                        <li><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
-                                        <li><a href="https://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
-                                        <li><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></li>
-                                    </ul>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <span class="nav-link"><a href="" data-i18n-text="contact"></a></span>
-                                </li>
-                            
-                                <li class="nav-item">
-                                    <span class="social">
-                                        <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href="https://twitter.com/GIC48226830"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                        <a href="https://www.instagram.com/taiwan_gic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                        <a href="https://www.youtube.com/channel/UCm5YE9imTe4LVGOJrSpoJ2g/featured?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                                    </span>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <select id="language" class="selectpicker form-control form-control-sm" data-width="auto" data-style="btn-primary" name="language" onchange="changelang()">
-                                        <option value="en">ENG</option>
-                                        <option value="zh_TW">TW</option>
-                                        <option value="zh_CN">CN</option>
-                                    </select> 
-                                </li>
+                        <li class="nav-item">
+                            <span class="nav-link"><a href="#top" >ARINA UNIVERSE</a></span>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <span class="nav-link" id="dapp-selection"><a href="" data-i18n-text="dapp"></a></span>
+                            <ul class="list-unstyled">
+                                <li><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
+                                <li><a href="https://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
+                                <li><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <span class="nav-link"><a href="" data-i18n-text="contact"></a></span>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <span class="social">
+                                <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/GIC48226830"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/taiwan_gic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.youtube.com/channel/UCm5YE9imTe4LVGOJrSpoJ2g/featured?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            </span>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <select id="language" class="selectpicker form-control form-control-sm" data-width="auto" data-style="btn-primary" name="language" onchange="changelang()">
+                                <option value="en">ENG</option>
+                                <option value="zh_TW">TW</option>
+                                <option value="zh_CN">CN</option>
+                            </select> 
+                        </li>
                             
                         
                         
