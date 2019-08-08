@@ -151,13 +151,12 @@ header {
     font: 2em/1em ;
     cursor: pointer;
     user-select: none;
-    height: 2.1em;
 }
-#dapp-selection:after{
+/* #dapp-selection:after{
     content:"";
     border-top-color: #ccc;
     position: absolute;
-}
+} */
 
 .list-unstyled{
     display: none;
@@ -169,14 +168,14 @@ header {
 
 .list-unstyled li{
     background-color: #ac47db;
-    padding:2px 5px;
-    margin:5px 0 ;
+    padding: 0 15px;
+    margin: 1% 0;
     border: 1px solid #ddd;
     border-radius: 25px;
 }
 .list-unstyled li a{
     color: #fff;
-    font-size: 1.5em;
+    font-size: 3vmin;
 }
 
 
@@ -706,7 +705,7 @@ header {
         1px 1px 0 #000,
         2px 2px 2px #000;
     color: #fff;
-    font-size: 1.7vmin;
+    font-size: 2vmin;
     line-height: 1%;
     font-weight:bold;
     margin:-1%;
@@ -745,7 +744,7 @@ header {
 #s-model-million-free{
     position: absolute;
     left: 70%;
-    top:-35%;
+    top:-45%;
     width: 30%;
 }
 #s-model-arina-million-context span{
@@ -757,7 +756,6 @@ header {
         2px 2px 2px #000;
     color: #fff;
     font-size: 3vmin;
-    line-height: 2vh;
     font-weight:bold;
     margin:-1%;
     padding:0;
@@ -781,7 +779,6 @@ header {
 #comming-soon{
     padding:5%;
     text-align: center;
-    font-size: 2em;
 }
 
 /*====================08.footer============*/
@@ -900,7 +897,7 @@ header {
         height: 40%;
     }
     
-    #dapp-selection:hover + .list-unstyled{
+    .list-unstyled{
         display:none;
     }
     #dapp-selection{
@@ -980,7 +977,7 @@ header {
     header {
         height: 65%;
     }
-    #dapp-selection:hover + .list-unstyled{
+    .list-unstyled{
     display:none;
     }
     #dapp-selection{
@@ -1050,8 +1047,8 @@ header {
     header {
         height: 90%;
     }
-    #dapp-selection:hover + .list-unstyled{
-        display:block;
+    .list-unstyled{
+        display:none;
     }
     #dapp-selection{
         display:block;
@@ -1108,8 +1105,8 @@ header {
     header {
         height: 100%;
     }
-    #dapp-selection:hover + .list-unstyled{
-        display:block;
+    .list-unstyled{
+        display:none;
     }
     #dapp-selection{
         display:block;
@@ -1140,8 +1137,8 @@ header {
     #header-left img{
         visibility:visible;
     }
-    #dapp-selection:hover + .list-unstyled{
-        display:block;
+    .list-unstyled{
+        display:none;
     }
     #dapp-selection{
         display:block;
