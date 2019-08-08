@@ -456,16 +456,24 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <div id="dapp-listing" class="container">
                     <h3 data-i18n-text="dappListing"></h3>
                     <div class="small-dapp">
-                        <img src="images/8DAPPLISTING/dapp_logo.png" alt="">
+                        <a target="_blank" href="https://www.dapp.com/zh/dapp/arina-land-tycoon">
+                            <img src="images/8DAPPLISTING/dapp_logo.png" alt="">
+                        </a>
                     </div>
                     <div class="small-dapp">
-                        <img src="images/8DAPPLISTING/dappreview.png" alt="">
+                        <a target="_blank" href="https://dapp.review/dapp/11734/ARINA-LAND-TYCOON">
+                            <img src="images/8DAPPLISTING/dappreview.png" alt="">
+                        </a>
                     </div>
                     <div class="big-dapp">
-                        <img src="images/8DAPPLISTING/dapp_online.png" alt="">
+                        <a target="_blank" href="https://dapponline.io/dappDetail/2377">
+                            <img src="images/8DAPPLISTING/dapp_online.png" alt="">
+                        </a>
                     </div>
                     <div class="big-dapp">
-                        <img src="images/8DAPPLISTING/dapptotal.png" alt="">
+                        <a target="_blank" href="https://dapptotal.com/detail/8395/ARINA-LAND-TYCOON">
+                            <img src="images/8DAPPLISTING/dapptotal.png" alt="">
+                        </a>
                     </div>
                 </div>
 

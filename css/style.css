@@ -479,8 +479,8 @@ header {
     left:30%;
 }
 #arina-video-context p{
-
-    font-size: 0.7em;
+    line-height: 150%;
+    font-size: 1.8vmin;
 }
 
 .beforebutton{
