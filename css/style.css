@@ -94,6 +94,8 @@ header {
     right: 0;
     z-index: 10;
 }
+
+
 .nav-item-hide{
     display:none;
 }
@@ -101,10 +103,11 @@ header {
     float: left;
     padding:1% 0 1% 2%;
 }
-
+.navbar-brand{
+    max-width:70%;
+}
 #logo img{
-    height:60px;
-    width:auto;
+    width:100%;
 }
 .navbar-nav{
     position: absolute;
@@ -540,7 +543,7 @@ header {
     margin-bottom:5%;
 }
 .s-button {
-    width:30%;
+    width:40%;
 }
 
 /*====================05.arina-interface============*/
@@ -588,10 +591,10 @@ header {
     margin: 30px 0;
 }
 #androidDownload p, #website p {
-    font-size: 10px;
+    font-size: 2vmin;
 }
 #iosDownload p{
-    font-size: 3px;
+    font-size: 1vmin;
     line-height: 18px;
 }
 #androidDownload a, #website a{
@@ -599,6 +602,7 @@ header {
     border-radius: 25px;
     padding: 10px 20px;
     text-transform: capitalize;
+    
 }
 #androidDownload a{
     background: -webkit-linear-gradient(left,#7a41d8,#6151fb);
@@ -623,6 +627,7 @@ header {
     background: #e24b2d;
     color: #fff;
     border: 1px solid #e24b2d;
+    
 }
 
 #website a:hover{
@@ -641,6 +646,7 @@ header {
     border-radius: 25px;
     padding: 3px 20px;
     text-transform: capitalize;
+    
 }
 
 #arina-interface-img{
@@ -880,11 +886,16 @@ header {
 .footer img{
     max-width: 250px;
 }
-
+.footer li{
+    margin:0 auto;
+}
 
 
 
 @media (min-width: 1px) {
+    p{
+        font-size:3.5vmin;
+    }
     header {
         height: 40%;
     }
@@ -901,8 +912,9 @@ header {
     #header-left img{
         visibility:hidden;
     }
+
     .navbar-collapse{
-        height:55vh;
+        height:50vh;
     }
     .nav-item{
         margin:3% 0;
@@ -918,24 +930,53 @@ header {
         margin:3% 0;
     }
     #arina-dapp-img{
-        height: 80vh;
+        height: 60vh;
+    }
+    #androidDownload, #iosDownload, #website{
+        margin:2% 15%;
+        width: 70%;
+        
+    }
+    #iosDownload p{
+        margin:-1% 0;
+        font-size:2vmin;
     }
     .future-games-item, #question-games{
         padding:1% ;
         width: 49%;
     }
+    #future-game div{
+        width:80%;
+    }
+
     #arina-dapp-context{
         margin:10% 0;
         padding:0 10%;
     }
     #footer .container .row div{
-        padding:0 15%;
+        padding:1% 15%;
     }
-    
+
+    .small-dapp{
+        width: 35%;
+        margin:3% 10%;
+    }
+    .big-dapp{
+        width: 60%;
+        margin:3% 10%;
+    }
+    #footer 
+    .copyright p{
+        padding:1% 0;
+        font-size:1.5vmin;
+    }
 }
 
 
 @media (min-width: 576px) {
+    p{
+        font-size:3.5vmin;
+    }
     header {
         height: 65%;
     }
@@ -951,7 +992,7 @@ header {
     #header-left img{
         visibility:hidden;
     }
-    
+
     .navbar-collapse{
         height:70vh;
     }
@@ -975,6 +1016,9 @@ header {
         padding:1% ;
         width: 49%;
     }
+    #future-game div{
+        width:70%;
+    }
     #arina-dapp-context{
         margin:0;
         padding: 25% 2% 5% 0;
@@ -982,10 +1026,27 @@ header {
     
     #footer .container .row div{
         padding:0;
+        
     }
+    .small-dapp{
+        width: 19%;
+        margin:0;
+    }
+    .big-dapp{
+        width: 28%;
+        margin:0;
+    }
+    .copyright p{
+        padding:1% 0;
+        font-size:1.5vmin;
+    }
+    
 }
 
 @media (min-width: 768px) {
+    p{
+        font-size:2.5vmin;
+    }
     header {
         height: 90%;
     }
@@ -1026,15 +1087,24 @@ header {
         height: 105vh;
     }
     .future-games-item, #question-games{
-        
         width: 24%;
+    }
+    #future-game div{
+        width:40%;
     }
     #footer .container .row div{
         padding:0;
     }
+    .copyright p{
+        padding:5% 0;
+        font-size:1.5vmin;
+    }
 }
 
 @media (min-width: 992px) {
+    p{
+        font-size:2.5vmin;
+    }
     header {
         height: 100%;
     }
@@ -1049,7 +1119,7 @@ header {
     }
     
     .navbar-brand{
-        visibility:visible;
+        visibility:hidden;
     }
     #arina-dapp-img{
         height: 125vh;
@@ -1061,6 +1131,9 @@ header {
 }
 
 @media (min-width: 1200px) {
+    p{
+        font-size:2vmin;
+    }
     header {
         height: 100%;
     }

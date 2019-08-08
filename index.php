@@ -558,7 +558,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 
         var width = $(this).width();
         console.log(width);
-        if(width<970){
+        if(width<1050){
             $("#arina-video-context").hide();
             $(".w-button").hide();
             
