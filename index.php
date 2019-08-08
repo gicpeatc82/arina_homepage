@@ -316,7 +316,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
     <!--------arina-million------------------------------------------------>
             <section id="arina-million" class="clearfix">
                 <div class="arina-million-div">
-                    <img src="images/6ARINASCRATCH/millionBG.jpg" alt="">
+                    <img src="images/6ARINASCRATCH/millionBG.png" alt="">
                     <div id="million-free">
                         <a href="https://www.arinamillion.com/arinatycoonnew/scratch/">
                             <img src="images/6ARINASCRATCH/ClickForFREE.gif">
