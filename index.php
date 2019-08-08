@@ -44,7 +44,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         </li>
                         
                         <li class="nav-item">
-                            <span class="nav-link" id="dapp-selection"><a href="" data-i18n-text="dapp"></a></span>
+                            <span class="nav-link" id="dapp-selection"><a style="color:#fff;" data-i18n-text="dapp"></a></span>
                             <ul class="list-unstyled">
                                 <li><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
                                 <li><a href="https://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
@@ -91,34 +91,6 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         
                     </ul>
                 </div>
-
-                <!-- <div class="nav">
-                    <select id="language" class="selectpicker form-control form-control-sm" data-width="auto" data-style="btn-primary" name="language" onchange="changelang()">
-                        <option value="en">ENG</option>
-                        <option value="zh_TW">TW</option>
-                        <option value="zh_CN">CN</option>
-                    </select> 
-                </div>
-
-                <div class="nav">
-                    <span class="social">
-                        <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/GIC48226830"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/taiwan_gic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="https://www.youtube.com/channel/UCm5YE9imTe4LVGOJrSpoJ2g/featured?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                    </span>
-                </div>
-
-                <div class="nav" id="nav-link">
-                    <span class="nav-link"><a href="#top" >ARINA UNIVERSE</a></span>
-                    <span class="nav-link" id="dapp-selection"><a href="" data-i18n-text="dapp"></a></span>
-                    <ul class="list-unstyled">
-                        <li><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
-                        <li><a href="https://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
-                        <li><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></li>
-                    </ul>
-                    <span class="nav-link"><a href="" data-i18n-text="contact"></a></span>
-                </div> -->
                 </nav>
             </div>
 
@@ -532,22 +504,23 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 </html>
 
 <script>
-    $("#dapp-selection ul").on("click", ".init", function() {
-        $(this).closest("ul").children('li:not(.init)').toggle();
-    });
+    // $("#dapp-selection ul").on("click", ".init", function() {
+    //     $(this).closest("ul").children('li:not(.init)').toggle();
+    // });
 
-    var allOptions = $("#dapp-selection ul").children('li:not(.init)');
-    $("#dapp-selection ul").on("click", "li:not(.init)", function() {
-        allOptions.removeClass('selected');
-        $(this).addClass('selected');
-        $("#dapp-selection ul").children('.init').html($(this).html());
-        allOptions.toggle();
-    });
+    // var allOptions = $("#dapp-selection ul").children('li:not(.init)');
+    // $("#dapp-selection ul").on("click", "li:not(.init)", function() {
+    //     allOptions.removeClass('selected');
+    //     $(this).addClass('selected');
+    //     $("#dapp-selection ul").children('.init').html($(this).html());
+    //     allOptions.toggle();
+    // });
 
 
 
     $(function(){
         $(window).scroll(function () {
+        ///////////////////////dapp-img飛入
             var scrollVal = $(this).scrollTop();
             //console.log(scrollVal);
             if (scrollVal > 1440) {
@@ -556,7 +529,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 $('.dapp-img-a').removeClass('demo_animated');
             }
 
-
+        ///////navbar背景加入
             if (scrollVal > 0 ) {
                 $('#navber').addClass('navber');
             } else {
@@ -565,7 +538,6 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
         });
 
         var width = $(this).width();
-        console.log(width);
         if(width<1050){
             $("#arina-video-context").hide();
             $(".w-button").hide();
@@ -577,8 +549,19 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             $(".s-model").show();
 
         }
+        
     });
 
+/////////////navbar Dapp 選單
+    $(document).ready(function(){
+        $("#dapp-selection").click(function(){
+            $(".list-unstyled").toggle()
+        });
+    });
+
+
+
+/////////arina-info info-context 升高
     $(".info-context").hover(
         function(){
             $(this).addClass('info-context-hover');
@@ -586,13 +569,10 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             $(this).removeClass('info-context-hover');
     });
     
+/////////加入漢堡選單背景圖
     $('.navbar-toggler').click(function () {
         $('#navber').addClass('navber');
     });
 
     
-
-    
-
-
 </script>
