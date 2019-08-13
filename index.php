@@ -165,19 +165,28 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         <div id="arina-dapp-img" class="col-sm-12 col-md-8">
                             <div class="dapp-img" id="dapp-img-left">
                                 <a class="dapp-img-a" id="dapp-img-1" href="https://www.arinamillion.com/arinanew/">
-                                <img src="images/3OurDAPP/ARINAYAKYUKEN.png" alt="">
+                                    <img src="images/3OurDAPP/ARINAYAKYUKEN.png" alt="">
+                                    <span class="dapp-game-name">ARINA YAKYUKEN</span> 
+                                    <span class="dapp-start-time">Dec 5 2018</span>
                                 </a>
+
                                 <a class="dapp-img-a" id="dapp-img-2" href="https://www.arinamillion.com/arinatycoonnew/scratch/">
-                                <img  src="images/3OurDAPP/ARINASCRATCH.png" alt="">
+                                    <img  src="images/3OurDAPP/ARINASCRATCH.png" alt="">
+                                    <span class="dapp-game-name">ARINA SCRATCH</span> 
+                                    <span class="dapp-start-time">Mar 28 2019</span>
                                 </a>
                             </div>
+
                             <div class="dapp-img" id="dapp-img-right">
                                 <div></div>
                                 <a class="dapp-img-a" id="dapp-img-3" href="http://www.arinatycoon.com/maingame.php">
-                                <img src="images/3OurDAPP/ARINALANDTYCOON.png" alt="">
+                                    <img src="images/3OurDAPP/ARINALANDTYCOON.png" alt="">
+                                    <span class="dapp-game-name">ARINA LAND TYCOON</span> 
+                                    <span class="dapp-start-time">Jun 6 2019</span>
                                 </a>
                             </div>
                         </div>
+
                         <div id="arina-dapp-context"  class="col-sm-12 col-md-4">
                             <h5 data-i18n-text="arinaDapp"></h5>
                             <p data-i18n-text="arinaDappContext"></p>
