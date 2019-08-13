@@ -415,7 +415,10 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <p data-i18n-text="commingSoon_2"></p>
                 <p data-i18n-text="commingSoon_3"></p>
             </section>
+
             <section id="arina-future">
+                <img id="arina-future-bg" src="images/8DAPPLISTING/BG.png" alt="">
+                <div class="s-model-bg"></div>
                 <div id="future-game">
                     <div>
                         <img src="images/7commingsoon/ARINAHUNTERS.png" alt=""> 
@@ -451,7 +454,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             <img src="images/8DAPPLISTING/dapp_online.png" alt="">
                         </a>
                     </div>
-                    <div class="big-dapp">
+                    <div class="big-dapp big-dapp2">
                         <a target="_blank" href="https://dapptotal.com/detail/8395/ARINA-LAND-TYCOON">
                             <img src="images/8DAPPLISTING/dapptotal.png" alt="">
                         </a>
@@ -464,7 +467,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         <div class="col-sm-4 col-md-4">
                             <div class="copyright">
                                 <p>Copyright&copy; 2018.GIC-COIN All Rights Reserved.</p>
-                                <div></div>
+
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4">
