@@ -121,7 +121,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             
                         </div>
                         <div id="info-top-context" class="col-sm-12 col-md-7">
-                            <h3 data-i18n-text="arinaUniverse"></h3>
+                            <h4 data-i18n-text="arinaUniverse"></h4>
                             <p data-i18n-text="arinaUniverseInfo"></p>
                         </div>
                     </div>
@@ -286,7 +286,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 
                         <div class="button-group">
                             <div id="androidDownload">
-                                <a href="" >
+                                <a href="http://www.arinatycoon.com/arinatycoonapp/ALT_Beta102.apk" >
                                     <p data-i18n-text="androidDownload"></p>
                                 </a>
                             </div>
