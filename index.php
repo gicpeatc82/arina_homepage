@@ -26,6 +26,8 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
     <!------header-------------------->
         <header id="header">
             <div id="navber">
+            <div class="toggle-navber"></div>
+
             <nav class="navbar navbar-expand-md navbar-dark">
 
                 <div class="navbar-brand" id="logo">
@@ -43,7 +45,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             <span class="nav-link"><a href="#top" >ARINA UNIVERSE</a></span>
                         </li>
                         
-                        <li class="nav-item">
+                        <li class="nav-item nav-item-dapp">
                             <span class="nav-link" id="dapp-selection"><a style="color:#fff;" data-i18n-text="dapp"></a></span>
                             <ul class="list-unstyled">
                                 <li><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
@@ -559,7 +561,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             $("#arina-million-notice").hide();
 
             $(".s-model").show();
-
+            
         }
         
     });
@@ -567,7 +569,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 /////////////navbar Dapp 選單
     $(document).ready(function(){
         $("#dapp-selection").click(function(){
-            $(".list-unstyled").toggle()
+            $(".list-unstyled").toggle();
         });
     });
 
@@ -582,9 +584,30 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
     });
     
 /////////加入漢堡選單背景圖
-    $('.navbar-toggler').click(function () {
-        $('#navber').addClass('navber');
+    // var flip = 0;
+    // $( ".navbar-toggler" ).click(function() {
+    //     $( "#navber" ).toggle( "css", function() {
+            
+    //     });
+    // });
+
+    $(".navbar-toggler").click(function(){
+        $("#navber").toggleClass("navber");
+        $(".toggle-navber").toggle();
     });
+
+    // $(".navbar-toggler").click(function(){
+    //     $('.navbar-toggler').toggle(function () {
+    //         $('#navber').css('height','10%');
+    //     }, function () {
+    //         $('#navber').css('height','40vh');
+    //     });
+    // });
+    // $(".navbar-toggler").click(function(){
+    //     $("#navber").toggleClass("toggle-navber");
+    // });
+
+
 
     
 </script>
