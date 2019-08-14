@@ -133,6 +133,9 @@ header {
     display: inline-block;
     font-weight:bold;
 }
+.nav-item-main{
+    margin-top:4%;
+}
 
 .social{
     margin-right:10%;
@@ -404,6 +407,7 @@ width:65%;
 
 .future-games-item img {
     opacity: 1;
+    margin: 1% 0;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
@@ -634,10 +638,7 @@ width:65%;
     text-align: center;
 }
 
-#androidDownload p, #website p {
-    font-size: 0.7vw;
-    line-height: 120%;
-}
+
 #iosDownload p{
     font-size: 0.7vw;
     line-height: 18px;
@@ -1022,8 +1023,15 @@ width:65%;
     }
     #iosDownload p{
         margin:0;
+        line-height: 110%;
         font-size:1vw;
     }
+    #androidDownload p, #website p {
+        font-size: 2vw;
+        line-height: 10%;
+    }
+
+
     .future-games-item, #question-games{
         width: 49%;
     }
@@ -1070,6 +1078,18 @@ width:65%;
     }
     .footer ul{
         float: none;
+    }
+
+    /****s-model**********/
+    #arina-video-context
+    , .w-button
+    , #million-free
+    , #arina-million-context
+    , #arina-million-notice{
+        display:none;
+    }
+    .s-model{
+        display:block;
     }
 }
 
@@ -1133,6 +1153,15 @@ width:65%;
         width: 45%;
         
     }
+    #iosDownload p{
+        margin:0;
+        font-size:2vw;
+    }
+    #androidDownload p, #website p {
+        font-size: 2vw;
+        line-height: 10%;
+    }
+
 
     #arina-future{
         height: 140vh;
@@ -1207,7 +1236,6 @@ width:65%;
         font-size:1.1vw;
     }
 
-
     #dapp-selection, .nav-item-dapp{
         display:block;
     }
@@ -1231,6 +1259,7 @@ width:65%;
         padding:0;
     }
 
+
     #info-img{
         padding:0 2%;
     }
@@ -1241,6 +1270,14 @@ width:65%;
     #arina-dapp-img{
         height: 105vh;
     }
+    #androidDownload p, #website p {
+        font-size: 0.7vw;
+        line-height: 120%;
+    }
+    #iosDownload p{
+        font-size: 0.7vw;
+    }
+
     .future-games-item, #question-games{
         width: 24%;
     }
@@ -1265,7 +1302,7 @@ width:65%;
 
 @media (min-width: 992px) {
     p{
-        font-size:2.5vmin;
+        font-size:2.2vmin;
     }
     header {
         height: 85%;
@@ -1279,7 +1316,7 @@ width:65%;
     #header-left img{
         visibility:visible;
     }
-    
+
     .navbar-brand{
         max-width: 55%;
     }
@@ -1311,6 +1348,11 @@ width:65%;
     .list-unstyled{
         display:none;
     }
+    .nav-item-main{
+        margin:0 5%;
+    }
+
+
     #dapp-selection{
         display:block;
     }
@@ -1321,6 +1363,17 @@ width:65%;
         padding:0;
     }
 
+    /****s-model**********/
+    #arina-video-context
+    , .w-button
+    , #million-free
+    , #arina-million-context
+    , #arina-million-notice{
+        display:block;
+    }
+    .s-model{
+        display:none;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -1328,7 +1381,9 @@ width:65%;
     header {
         height: 90%;
     }
-
+    .nav-item-main span{
+        margin-top: 5px;
+    }
 
 }
 

@@ -41,11 +41,11 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         
-                        <li class="nav-item">
+                        <li class="nav-item nav-item-main">
                             <span class="nav-link"><a href="#top" >ARINA UNIVERSE</a></span>
                         </li>
                         
-                        <li class="nav-item nav-item-dapp">
+                        <li class="nav-item nav-item-dapp nav-item-main">
                             <span class="nav-link" id="dapp-selection"><a style="color:#fff;" data-i18n-text="dapp"></a></span>
                             <ul class="list-unstyled">
                                 <li><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
@@ -65,7 +65,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             <span class="nav-link"><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></span>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item nav-item-main">
                             <span class="nav-link"><a href="" data-i18n-text="contact"></a></span>
                         </li>
                     
@@ -551,18 +551,18 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             }
         });
 
-        var width = $(this).width();
-        if(width<1050){
-            $("#arina-video-context").hide();
-            $(".w-button").hide();
+        // var width = $(this).width();
+        // if(width<1050){
+        //     $("#arina-video-context").hide();
+        //     $(".w-button").hide();
             
-            $("#million-free").hide();
-            $("#arina-million-context").hide();
-            $("#arina-million-notice").hide();
+        //     $("#million-free").hide();
+        //     $("#arina-million-context").hide();
+        //     $("#arina-million-notice").hide();
 
-            $(".s-model").show();
+        //     $(".s-model").show();
             
-        }
+        // }
         
     });
 
