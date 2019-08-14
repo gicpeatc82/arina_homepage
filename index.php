@@ -229,6 +229,10 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             </section>
                 
     <!--------arina-video------------------------------------------------>
+            <section class="ss-model arina-video-top">
+                <h1>ARINA YAKYUKEN</h1>
+            </section>
+
             <section id="arina-video">
                 <img src="images/4ARINAYAKYUKEN/VideoARINAYAKYUKEN.png" alt="">
                 <div class="arina-video-container clearfix">

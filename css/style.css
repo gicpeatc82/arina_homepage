@@ -818,6 +818,17 @@ width:65%;
     padding:0;
 }
 
+.arina-video-top{
+    text-align: center;
+    background-color: #000;
+    padding: 0 5%;
+}
+.arina-video-top h1{
+    color: #fff;
+    font-weight: 1000;
+    font-size: 9vw;
+}
+
 /*====================07.comming-soon============*/
 #comming-soon{
     padding:5%;
@@ -1035,10 +1046,10 @@ width:65%;
     #iosDownload p{
         margin:0;
         line-height: 110%;
-        font-size:1vw;
+        font-size:3.5vw;
     }
     #androidDownload p, #website p {
-        font-size: 2vw;
+        font-size: 3.5vw;
         line-height: 10%;
     }
 
@@ -1102,6 +1113,9 @@ width:65%;
         display:none;
     }
     .s-model{
+        display:block;
+    }
+    .ss-model{
         display:block;
     }
 }
@@ -1236,6 +1250,9 @@ width:65%;
     .footer ul{
         float: right;
     }
+    .ss-model{
+        display:block;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1321,6 +1338,9 @@ width:65%;
     .copyright p{
         padding:5% 0;
         font-size:1vw;
+    }
+    .ss-model{
+        display:none;
     }
 }
 
