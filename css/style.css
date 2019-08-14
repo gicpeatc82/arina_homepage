@@ -191,8 +191,7 @@ header {
     max-width: 2140px;
 }
 #header-left{
-    margin-top: 15%;
-    padding:0 5%;
+    margin-top: 13%;
 }
 #header-left h5{
     color:#7a41d8;
@@ -316,14 +315,13 @@ width:65%;
 #info-top-context h4{
     padding-bottom: 3%;
     line-height: 120%; 
-    text-shadow: -1px -1px 0 #000
+    font-weight: 1000;
+    /* text-shadow: -1px -1px 0 #000
     , 1px 1px 0 #000
     , 1px -1px 0 #000
-    , -1px 1px 0 #000;
+    , -1px 1px 0 #000; */
 }
-#info-top-context p{
-    font-size: 1vw;
-}
+
 #info-top-context p{
     line-height: 130%; 
 }
@@ -386,9 +384,6 @@ width:65%;
 #arina-dapp-context h5{
     margin-bottom: 20px;
     font-weight:bold;
-}
-#arina-dapp-context h5{
-    font-size: 2vmin;
     line-height: 160%;
 }
 
@@ -485,11 +480,14 @@ width:65%;
 }
 #arina-video-title{
     position: absolute;
-    top:2%;
-    left: 27%;
+    top: 2%;
+    left: 20%;
     text-align: center;
+    font-size: 4.2vw;
     color: #fff;
-    padding:3% 0;
+    padding: 3% 0;
+    /* font-weight: 1000; */
+    text-shadow: -1px -1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .video-container {
@@ -536,7 +534,6 @@ width:65%;
 }
 .button1 p{
     font-weight: bold;
-    font-size:3vmin;
     color:#fff;
 }
 .button1 {
@@ -828,7 +825,6 @@ width:65%;
     position: relative;
 }
 #comming-soon p{
-    font-size: 2vw;
     line-height: 150%;
     font-weight:bold;
 }
@@ -993,6 +989,10 @@ width:65%;
     .nav-item-hide{
         display:block;
     }
+    #header-left{
+        padding: 5% 0;
+        width: 66%;
+    }
     #header-left img{
         visibility:hidden;
     }
@@ -1005,6 +1005,17 @@ width:65%;
     }
     .nav-link{
         padding:0;
+    }
+
+    #info-top-context p, .info-context p {
+        font-size: 3.5vw;
+    }
+
+    #arina-dapp-context h5{
+        font-size: 7vw;
+    }
+    .button1 p{
+        font-size:3vw;
     }
     #info-img{
         padding:0 30%;
@@ -1043,7 +1054,9 @@ width:65%;
         margin:10% 0;
         padding:0 10%;
     }
-
+    #comming-soon p{
+        font-size: 3.5vw;
+    }
     #arina-future{
         height: 180vh;
     }
@@ -1117,7 +1130,10 @@ width:65%;
     .list-unstyled{
     display:none;
     }
-
+    #header-left{
+        width:auto;
+        padding: 0 5% 0 15%;
+    }
 
     #dapp-selection, .nav-item-dapp{
         display:none;
@@ -1138,6 +1154,10 @@ width:65%;
     .nav-link{
         padding:0;
     }
+
+    #info-top-context p, .info-context p {
+        font-size: 1vw;
+    }
     #info-img{
         padding:0 20%;
     }
@@ -1155,13 +1175,15 @@ width:65%;
     }
     #iosDownload p{
         margin:0;
-        font-size:2vw;
+        font-size:3.5vw;
     }
     #androidDownload p, #website p {
-        font-size: 2vw;
+        font-size: 3.5vw;
         line-height: 10%;
     }
-
+    #comming-soon p{
+        font-size: 2vw;
+    }
 
     #arina-future{
         height: 140vh;
@@ -1259,7 +1281,9 @@ width:65%;
         padding:0;
     }
 
-
+    #arina-dapp-context h5{
+        font-size: 2vw;
+    }
     #info-img{
         padding:0 2%;
     }
@@ -1337,7 +1361,7 @@ width:65%;
         height: 77%;
     }
     #header-left img{
-        max-width: 55%;
+        max-width: 100%;
     }
     #navber{
         height: 9%;
@@ -1348,10 +1372,10 @@ width:65%;
     .list-unstyled{
         display:none;
     }
-    .nav-item-main{
-        margin:0 5%;
-    }
 
+    .button1 p{
+        font-size:1.5vw;
+    }
 
     #dapp-selection{
         display:block;

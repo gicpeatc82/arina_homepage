@@ -98,11 +98,11 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 
             <div class="container" id="top">
                 <div class="row">
-                    <div id="header-left" class="col-sm-12 col-md-8">
+                    <div id="header-left" class="col-sm-8">
                         <h5 class="button0" data-i18n-text="firstGame"></h5>
                         <img src="images/1MenuMain/ARINAUNIVERSELOGO.png" alt="logo">
                     </div>
-                    <div id="header-right" class="col-sm-12 col-md-4">
+                    <div id="header-right" class="col-sm-4">
                     </div>
                 </div>
             </div>
