@@ -288,7 +288,12 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                                 <img src="images/5ARINALANDTYCOON/logo01.png" alt="">
                             </div>
                         </div>
-                        
+
+                        <div class="arina-interface-img s-model col-sm-12 col-md-7">
+                            <img class="interface-macbook" src="images/5ARINALANDTYCOON/WebMobile.png" alt="">
+                            
+                        </div>
+
                         <div class="interface-context">
                             <p data-i18n-text="arinaLANDTYCOON"></p>
                             <h5 data-i18n-text="monoandsimc"></h5>
@@ -319,8 +324,9 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             </div>
                         </div>
                     </div>
-                    <div id="arina-interface-img"  class="col-sm-12 col-md-7">
-                        <img id="interface-macbook" src="images/5ARINALANDTYCOON/WebMobile.png" alt="">
+
+                    <div class="arina-interface-img m-model col-sm-12 col-md-7">
+                        <img class="interface-macbook" src="images/5ARINALANDTYCOON/WebMobile.png" alt="">
                         
                     </div>
                 </div>

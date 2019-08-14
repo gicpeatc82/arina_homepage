@@ -165,7 +165,7 @@ header {
     text-align: center;
     position: absolute;
     top: 76%;
-    right: 53%;
+    right: 50%;
 }
 
 .list-unstyled li{
@@ -580,7 +580,10 @@ width:65%;
     margin-bottom:5%;
 }
 .s-button {
-    width:40%;
+    width:70%;
+}
+.s-button p{
+    font-size: 6vw;
 }
 .s-model-bg {
     position: absolute;
@@ -686,11 +689,11 @@ width:65%;
     padding: 5% 0;
 }
 
-#arina-interface-img{
+.arina-interface-img{
     padding:0;
     margin:0;
 }
-#interface-macbook{
+.interface-macbook{
     width:100%;
 }
 
@@ -773,7 +776,7 @@ width:65%;
 
 /*====================s-model-arina-million============*/
 .s-model-arina-million{
-    background-color: #e24b2d;
+    background-color: #e02500;
 }
 .s-model-arina-million .container{
     position: relative;
@@ -984,6 +987,10 @@ width:65%;
     .toggle-navber{
         height: 55vh;
     }
+    #header-left h5{
+        margin: 0 15%;
+    }
+
 
     #dapp-selection, .nav-item-dapp{
         display:none;
@@ -1024,7 +1031,7 @@ width:65%;
         font-size: 7vw;
     }
     .button1 p{
-        font-size:3vw;
+        font-size:6vw;
     }
     #info-img{
         padding:0 30%;
@@ -1129,6 +1136,9 @@ width:65%;
     }
     .ss-model{
         display:block;
+    }
+    .m-model{
+        display:none;
     }
 }
 
@@ -1292,6 +1302,9 @@ width:65%;
     .ss-model{
         display:block;
     }
+    .m-model{
+        display:block;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1313,6 +1326,10 @@ width:65%;
     .nav-link a, #language{
         font-size:1.1vw;
     }
+    #header-left h5{
+        margin: 0;
+    }
+
 
     .interface-left{
         padding-left: 13%;
@@ -1338,6 +1355,7 @@ width:65%;
     }
     .navbar-nav{
         background-color: rgba(255,255,255,0);
+        width: 110%;
     }
     .nav-link{
         padding:0;
@@ -1405,7 +1423,9 @@ width:65%;
     #header-left img{
         visibility:visible;
     }
-
+    .navbar-nav{
+        width: 100%;
+    }
     .navbar-brand{
         max-width: 55%;
     }
@@ -1452,7 +1472,7 @@ width:65%;
         padding:0;
     }
     .navbar-nav{
-        width: 80%;
+        width: 85%;
         position: absolute;
         right: 0;
     }
@@ -1471,6 +1491,7 @@ width:65%;
     .s-model{
         display:none;
     }
+
 }
 
 @media (min-width: 1300px) {
