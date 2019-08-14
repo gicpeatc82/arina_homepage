@@ -230,7 +230,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 
     <!--------arina-video------------------------------------------------>
             <section class="ss-model arina-video-top">
-                <h1>ARINA YAKYUKEN</h1>
+                <p>ARINA YAKYUKEN</p>
             </section>
 
             <section id="arina-video">
