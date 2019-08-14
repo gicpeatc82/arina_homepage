@@ -322,9 +322,7 @@ width:65%;
     , -1px 1px 0 #000; */
 }
 
-#info-top-context p{
-    line-height: 130%; 
-}
+
 
 /*====================03.arina-dapp============*/
 #arina-dapp{
@@ -611,7 +609,6 @@ width:65%;
     max-width: 1920px;
 }
 .interface-left{
-    padding-left: 13%;
     padding-right: 1%;
 }
 .interface-left-logo{
@@ -945,7 +942,6 @@ width:65%;
     color: #fff;
     text-align: center;
     position: absolute;
-    bottom: 3%;
     width: 100%;
 }
 #footer .container{
@@ -954,7 +950,6 @@ width:65%;
 }
 
 #footer .nav a{
-    padding: 0 10px;
     color: #fff;
 }
 .footer ul{
@@ -1016,8 +1011,15 @@ width:65%;
         padding:0;
     }
 
+    .interface-left{
+        padding-left: 1%;
+    }
+    .interface-context{
+        padding-left: 13%;
+    }
     #info-top-context p, .info-context p {
         font-size: 3.5vw;
+        line-height: 170%;
     }
 
     #arina-dapp-context h5{
@@ -1033,6 +1035,7 @@ width:65%;
         padding:3% 10%;
         margin:3% 0;
     }
+
     #arina-dapp-img{
         height: 60vh;
     }
@@ -1104,9 +1107,17 @@ width:65%;
     #dapp-listing h3{
         font-size: 6vw;
     }
+    #footer {
+        bottom: 1%;
+    }
+    .footer li{
+        width:100%;
+    }
     #footer .nav a{
         font-size: 6vw;
+        padding: 0 8%;
     }
+
     /****s-model**********/
     #arina-video-context
     , .w-button
@@ -1175,6 +1186,15 @@ width:65%;
     #info-top-context p, .info-context p {
         font-size: 1vw;
     }
+
+    #info-top-context p{
+        line-height: 130%; 
+    }
+
+    .info-context p{
+        line-height: 200%; 
+    }
+
     #info-img{
         padding:0 20%;
     }
@@ -1256,8 +1276,15 @@ width:65%;
     #dapp-listing h3{
         font-size: 2.5vw;
     }
+    #footer {
+        bottom: 3%;
+    }
+    .footer li{
+        width:auto;
+    }
     #footer .nav a{
         font-size: 2vw;
+        padding: 0 10px;
     }
 
     .ss-model{
@@ -1285,6 +1312,12 @@ width:65%;
         font-size:1.1vw;
     }
 
+    .interface-left{
+        padding-left: 13%;
+    }
+    .interface-context{
+        padding: 0;
+    }
     #dapp-selection, .nav-item-dapp{
         display:block;
     }
