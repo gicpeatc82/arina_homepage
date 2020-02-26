@@ -186,6 +186,12 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                                     <span class="dapp-game-name">ARINA LAND TYCOON</span> 
                                     <span class="dapp-start-time">Jun 6 2019</span>
                                 </a>
+
+                                <a class="dapp-img-a" id="dapp-img-4" href="">
+                                    <img src="images/3OurDAPP/TRONRACER.png" alt="">
+                                    <span class="dapp-game-name">TRON RACER</span> 
+                                    <span class="dapp-start-time">Feb 20 2020</span>
+                                </a>
                             </div>
                         </div>
 
@@ -207,20 +213,15 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             <span class="dapp-comming">COMMING SOON</span>
                         </div>
                         <div class="future-games-item">
-                            <img src="images/3OurDAPP/ARINAZombinawa.png" alt="">
-                            <span class="dapp-future-game">ARINA Zombinawa</span>
+                            <img src="images/3OurDAPP/ARINACASINO.png" alt="">
+                            <span class="dapp-future-game">ARINA CASINO</span>
                             <span class="dapp-comming">COMMING SOON</span>
                         </div>
-                        <div id="question-games">
-                            <img src="images/3OurDAPP/00.png" alt="">
-                            <img src="images/3OurDAPP/00.png" alt="">
-                            <img src="images/3OurDAPP/00.png" alt="">
-                            <img src="images/3OurDAPP/00.png" alt="">
-                            <img src="images/3OurDAPP/00.png" alt="">
-                            <img src="images/3OurDAPP/00.png" alt="">
+                        <div class="future-games-item">
+                            <img src="images/3OurDAPP/ARINAZombinawa.png" alt="">
+                            <span class="dapp-future-game">ARINA ZOMBINAWA</span>
+                            <span class="dapp-comming">COMMING SOON</span>
                         </div>
-                        
-                        
                     </div>
                     <div id="second-title">
                         <img src="images/3OurDAPP/ARINALOGO.png" alt="">
@@ -478,8 +479,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div class="row">
                         <div class="col-sm-4 col-md-4">
                             <div class="copyright">
-                                <p>Copyright&copy; 2018.GIC-COIN All Rights Reserved.</p>
-
+                                <p>Copyright © 2018.ARINA UNIVERSE All rights reserved. BITAPE LOGISTICS TECHNOLOGY CO.,LTD.</p>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4">

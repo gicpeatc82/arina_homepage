@@ -337,7 +337,6 @@ width:65%;
 }
 
 #dapp-img-right{
-    padding: 25% 0;
     float:right;
 }
 @keyframes bounceInLeft {
@@ -368,7 +367,7 @@ width:65%;
     opacity: .6;
 }
 
-#dapp-img-2{
+#dapp-img-2, #dapp-img-4{
     margin-top:50%;
 }
 
@@ -1329,7 +1328,9 @@ width:65%;
     #header-left h5{
         margin: 0;
     }
-
+    .button1 p{
+        font-size:3vw;
+    }
 
     .interface-left{
         padding-left: 13%;
