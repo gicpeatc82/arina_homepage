@@ -421,8 +421,13 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     </div>
                 </div>                
             </section>
-
-        <!--------comming-soon------------------------------------------------>
+    <!--------tron-racer------------------------------------------------>
+            <section id="arina-million" class="clearfix">
+                <div class="tron-racer-div">
+                    <img src="images/9TRON RACER/BG.png" alt="">
+                </div>
+            </section>
+    <!--------comming-soon------------------------------------------------>
             <section id="comming-soon">
                 <p data-i18n-text="commingSoon_1"></p>
                 <p data-i18n-text="commingSoon_2"></p>
@@ -509,7 +514,8 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
             </section>
         </div>
         
-    <!--------footer------------------------------------------------>
+    
+        <!--------footer------------------------------------------------>
 
 
         <script type='text/javascript' src='js/jquery.min.js'></script>
