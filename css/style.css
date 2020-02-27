@@ -887,12 +887,47 @@ width:65%;
 
 /*====================08.comming-soon============*/
 /*#region*/
-#comming-soon{
+.comming-soon-bg{
+    float:left;
+    position: absolute;
+}
+
+.comming-soon-left{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 16%;
+    margin-bottom: 13%;
+}
+
+.comming-soon-bottom {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.comming-soon-bottom p{
+    color: #fff;
+    font-size: 4vw;
+    font-style: italic;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.comming-soon-store{
+    padding: 0 10%;
+}
+
+.comming-soon-store img{
+    width: 40%;
+    padding: 0 2%;
+    display: inline-block;
+}
+
+.comming-soon-text{
     padding:5%;
     text-align: center;
     position: relative;
 }
-#comming-soon p{
+.comming-soon-text p{
     line-height: 150%;
     font-weight:bold;
 }
@@ -1136,7 +1171,7 @@ width:65%;
         margin:10% 0;
         padding:0 10%;
     }
-    #comming-soon p{
+    .comming-soon-text p{
         font-size: 3.5vw;
     }
     #arina-future{
@@ -1295,7 +1330,7 @@ width:65%;
         font-size: 3.5vw;
         line-height: 10%;
     }
-    #comming-soon p{
+    .comming-soon-text p{
         font-size: 2vw;
     }
 

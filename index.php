@@ -439,18 +439,39 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                                     <img src="images/9TRONRACER/PLAYNOW.png" alt="">
                                 </a>
                             </div>
-                            
-                            
-                            
                         </div>
                     </div>
                 </div>
             </section>
     <!--------comming-soon------------------------------------------------>
             <section id="comming-soon">
-                <p data-i18n-text="commingSoon_1"></p>
-                <p data-i18n-text="commingSoon_2"></p>
-                <p data-i18n-text="commingSoon_3"></p>
+                <div class="comming-soon-div">
+                    <div class="comming-soon-bg">
+                        <img src="images/10ARINACASINO/BG.png" alt="">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-8 comming-soon-left">
+                            <div class="comming-soon-logo">
+                                <img src="images/10ARINACASINO/logo.png" alt="">
+                            </div>
+
+                            <div class="comming-soon-bottom">
+                                <p>COMMING SOON!</p>
+                                <div class="comming-soon-store">
+                                    <img src="images/10ARINACASINO/GooglePlay.png" alt="">
+                                    <img src="images/10ARINACASINO/APPStore.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comming-soon-text">
+                        <p data-i18n-text="commingSoon_1"></p>
+                        <p data-i18n-text="commingSoon_2"></p>
+                        <p data-i18n-text="commingSoon_3"></p>
+                    </div>
+                </div>
             </section>
 
             <section id="arina-future">
