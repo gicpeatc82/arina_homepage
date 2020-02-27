@@ -850,9 +850,10 @@ width:65%;
     padding: 0;
 }
 
-.tron-racer-bg{
-    float:left;
-    position: absolute;
+.tron-racer-div{
+    background-image: url("../images/9TRONRACER/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tron-racer-div img{
@@ -860,18 +861,15 @@ width:65%;
 }
 
 .tron-racer-left{
-    padding: 5% 0 1% 0;
+    padding: 10% 3% 1% 3%;
 }
 
 .tron-racer-logo{
-    padding-top: 10%;
-    padding-bottom: 2%;
-    padding-left: 24%;
-    padding-right: 24%;
+    padding: 2% 19% 5% 19%;
 }
 
 .tron-racer-word{
-    padding: 7% 0;
+    padding: 12% 3%;
     text-align: center;
 }
 
@@ -885,7 +883,7 @@ width:65%;
 
 /**************/
 .pictures{
-    padding: 1% 2% 0 2%;
+    padding: 5% 2%;
 }
 .carousel-inner{
     padding: 0 5%;
@@ -948,16 +946,18 @@ width:65%;
 
 /*====================08.comming-soon============*/
 /*#region*/
-.comming-soon-bg{
-    float:left;
-    position: absolute;
+#comming-soon{
+    padding-top: 0;
+}
+
+.comming-soon-div{
+    background-image: url("../images/10ARINACASINO/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .comming-soon-left{
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 16%;
-    margin-bottom: 13%;
+    padding: 10% 16% 13% 5%;
 }
 
 .comming-soon-bottom {
@@ -1413,7 +1413,7 @@ width:65%;
     }
     #arina-dapp-context{
         margin:0;
-        padding: 25% 2% 5% 0;
+        padding: 25% 2% 5% 2%;
     }
 
     #arina-future{
