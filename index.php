@@ -48,19 +48,21 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         <li class="nav-item nav-item-dapp nav-item-main">
                             <span class="nav-link" id="dapp-selection"><a style="color:#fff;" data-i18n-text="dapp"></a></span>
                             <ul class="list-unstyled">
-                                <li><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
-                                <li><a href="https://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
+                                <li><a href="http://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
+                                <li><a href="http://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
                                 <li><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></li>
+                                <li><a href="https://www.arinatycoon.com/tron_racer_testnet/">TRON RACER</a></li>
                             </ul>
                         </li>
                         
                         <li class="nav-item nav-item-hide">
-                        <span class="nav-link"><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></span>
-                            
+                            <span class="nav-link"><a href="https://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></span>
                         </li>
+
                         <li class="nav-item nav-item-hide">
                             <span class="nav-link"><a href="https://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></span>
                         </li>
+
                         <li class="nav-item nav-item-hide">
                             <span class="nav-link"><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></span>
                         </li>
@@ -85,12 +87,6 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                                 <option value="zh_CN">CN</option>
                             </select> 
                         </li>
-                            
-                        
-                        
-
-                        
-                        
                     </ul>
                 </div>
                 </nav>
@@ -489,8 +485,8 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                         <span class="comming">COMMING SOON</span>
                     </div>
                     <div>
-                        <img src="images/7commingsoon/ARINAZombinawa.png" alt="">
-                        <span class="future-game">ARINA Zombinawa</span>
+                        <img src="images/7commingsoon/ARINACASINO.png" alt="">
+                        <span class="future-game">ARINA CASINO</span>
                         <span class="comming">COMMING SOON</span>
                     </div>
                 </div>
@@ -524,7 +520,8 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                     <div class="row">
                         <div class="col-sm-4 col-md-4">
                             <div class="copyright">
-                                <p>Copyright © 2018.ARINA UNIVERSE All rights reserved. BITAPE LOGISTICS TECHNOLOGY CO.,LTD.</p>
+                                <p>Copyright © 2018.ARINA UNIVERSE All rights reserved. <br>
+                                    BITAPE LOGISTICS TECHNOLOGY CO.,LTD.</p>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4">

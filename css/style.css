@@ -109,6 +109,7 @@ header {
 }
 .navbar{
     height:100%;
+    margin-top: 1%;
 }
 
 .nav-item-hide{
@@ -140,9 +141,9 @@ header {
     margin-top:4%;
 }
 
-.social{
+/* .social{
     margin-right:10%;
-}
+} */
 
 .nav-link span{
     margin: 0;
@@ -1205,6 +1206,7 @@ width:65%;
         padding:1% 0;
         font-size:3.2vw;
         float: left;
+        text-align: left;
     }
     .footer ul{
         float: none;
@@ -1501,7 +1503,7 @@ width:65%;
         padding:0;
     }
     .copyright p{
-        padding:5% 0;
+        padding:2% 0;
         font-size:1vw;
     }
     .ss-model{
@@ -1515,6 +1517,9 @@ width:65%;
     }
     header {
         height: 85%;
+    }
+    #navber{
+        height: 10%;
     }
     .list-unstyled{
         display:none;
@@ -1537,6 +1542,7 @@ width:65%;
     .info-item{
         padding:3% 1%;
         margin:5% 0;
+        width: 20%;
     }
 }
 
@@ -1551,7 +1557,7 @@ width:65%;
         max-width: 100%;
     }
     #navber{
-        height: 9%;
+        height: 12%;
     }
     .navbar {
         height: 90%;
