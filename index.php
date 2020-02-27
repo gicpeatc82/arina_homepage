@@ -40,19 +40,12 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
 
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
-                        
-                        <li class="nav-item nav-item-main">
-                            <span class="nav-link"><a href="#top" >ARINA UNIVERSE</a></span>
-                        </li>
-                        
-                        <li class="nav-item nav-item-dapp nav-item-main">
-                            <span class="nav-link" id="dapp-selection"><a style="color:#fff;" data-i18n-text="dapp"></a></span>
-                            <ul class="list-unstyled">
-                                <li><a href="http://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
-                                <li><a href="http://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
-                                <li><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></li>
-                                <li><a href="https://www.arinatycoon.com/tron_racer_testnet/">TRON RACER</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <select id="language" class="selectpicker form-control form-control-sm" data-width="auto" data-style="btn-primary" name="language" onchange="changelang()">
+                                <option value="en">ENG</option>
+                                <option value="zh_TW">TW</option>
+                                <option value="zh_CN">CN</option>
+                            </select> 
                         </li>
                         
                         <li class="nav-item nav-item-hide">
@@ -67,10 +60,6 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             <span class="nav-link"><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></span>
                         </li>
 
-                        <li class="nav-item nav-item-main">
-                            <span class="nav-link"><a href="" data-i18n-text="contact"></a></span>
-                        </li>
-                    
                         <li class="nav-item">
                             <span class="social">
                                 <a href="https://www.facebook.com/GlobalIdolCoin/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -80,12 +69,22 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             </span>
                         </li>
                         
-                        <li class="nav-item">
-                            <select id="language" class="selectpicker form-control form-control-sm" data-width="auto" data-style="btn-primary" name="language" onchange="changelang()">
-                                <option value="en">ENG</option>
-                                <option value="zh_TW">TW</option>
-                                <option value="zh_CN">CN</option>
-                            </select> 
+                        <li class="nav-item nav-item-main">
+                            <span class="nav-link"><a href="" data-i18n-text="contact"></a></span>
+                        </li>
+
+                        <li class="nav-item nav-item-dapp nav-item-main">
+                            <span class="nav-link" id="dapp-selection"><a style="color:#fff;" data-i18n-text="dapp"></a></span>
+                            <ul class="list-unstyled">
+                                <li><a href="http://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
+                                <li><a href="http://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
+                                <li><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></li>
+                                <li><a href="https://www.arinatycoon.com/tron_racer_testnet/">TRON RACER</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item nav-item-main">
+                            <span class="nav-link"><a href="#top" >ARINA UNIVERSE</a></span>
                         </li>
                     </ul>
                 </div>
