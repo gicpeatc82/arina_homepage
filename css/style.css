@@ -1,4 +1,4 @@
-/*================01.basic setting=====================*/
+/*================00.basic setting=====================*/
 /*#region*/
 html, body {
     width: 100%;
@@ -65,7 +65,8 @@ h2{
 }
 /*#endregion*/
 
-/*====================02.header============*/
+/*====================01.header============*/
+/*#region*/
 header {
     top:0;
     left: 0;
@@ -251,7 +252,10 @@ header {
     color: #fff;
     background-color: #7a41d8;
 }
-/*====================03.arina-info============*/
+/*#endregion*/
+
+/*====================02.arina-info============*/
+/*#region*/
 #arina-info .container{
 width:65%;
 }
@@ -321,9 +325,10 @@ width:65%;
     , -1px 1px 0 #000; */
 }
 
-
+/*#endregion*/
 
 /*====================03.arina-dapp============*/
+/*#region*/
 #arina-dapp{
     padding:0;
 }
@@ -444,8 +449,10 @@ width:65%;
     margin: 5% 0;
     padding: 0 15%;
 }
+/*#endregion*/
 
 /*====================04.arina-video============*/
+/*#region*/
 #arina-video{
     /* height: 80vh;
     background-image: url(../images/4ARINAYAKYUKEN/VideoARINAYAKYUKEN.png);
@@ -568,7 +575,10 @@ width:65%;
     left: 150%;
 }
 
-/*====s-model=======*/
+/*#endregion*/
+
+/*=======arina-video---s-model=======*/
+/*#region*/
 .s-model{
     display:none;
 }
@@ -593,8 +603,10 @@ width:65%;
     height:45vh;
     width: 100%;
 }
-/*====================05.arina-interface============*/
+/*#endregion*/
 
+/*====================05.arina-interface============*/
+/*#region*/
 #arina-interface{
     left: 0;
     right: 0;
@@ -697,9 +709,10 @@ width:65%;
 .interface-macbook{
     width:100%;
 }
-
+/*#endregion*/
 
 /*====================06.arina-million============*/
+/*#region*/
 #arina-million{
     /* left: 0;
     right: 0;
@@ -774,8 +787,10 @@ width:65%;
     margin:-1%;
     padding:0;
 }
+/*#endregion*/
 
-/*====================s-model-arina-million============*/
+/*=======s-model-arina-million=========*/
+/*#region*/
 .s-model-arina-million{
     background-color: #e02500;
 }
@@ -826,8 +841,52 @@ width:65%;
     font-weight: 1000;
     font-size: 9vw;
 }
+/*#endregion*/
 
-/*====================07.comming-soon============*/
+/*====================07.tron-racer================*/
+/*#region*/ 
+#tron-racer{
+    padding-top: 0;
+}
+
+.tron-racer-bg{
+    float:left;
+    position: absolute;
+}
+
+.tron-racer-div img{
+    z-index:0;
+}
+
+.tron-racer-left{
+    padding: 5% 0;
+}
+
+.tron-racer-logo{
+    padding-top: 10%;
+    padding-bottom: 2%;
+    padding-left: 24%;
+    padding-right: 24%;
+}
+
+.tron-racer-word{
+    padding: 7% 0;
+    text-align: center;
+}
+
+.tron-racer-word img{
+    padding: 0 18%;
+}
+
+.tron-racer-word a img{
+    padding: 5% 32%;
+}
+
+/*#endregion*/
+
+
+/*====================08.comming-soon============*/
+/*#region*/
 #comming-soon{
     padding:5%;
     text-align: center;
@@ -837,7 +896,10 @@ width:65%;
     line-height: 150%;
     font-weight:bold;
 }
-/*====================08.footer============*/
+/*#endregion*/
+
+/*====================09.footer================*/
+/*#region*/
 /* #arina-future{
     left: 0;
     right: 0;
@@ -962,9 +1024,11 @@ width:65%;
 .footer li{
     margin:0 auto;
 }
+/*#endregion*/
 
 
-
+/*====================10.RWD======================*/
+/*#region*/
 @media (min-width: 1px) {
     p{
         font-size:3.5vmin;
@@ -1524,3 +1588,5 @@ width:65%;
         padding:0 20%;
     }
 }
+
+/*#endregion*/

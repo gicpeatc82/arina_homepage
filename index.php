@@ -422,9 +422,28 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 </div>                
             </section>
     <!--------tron-racer------------------------------------------------>
-            <section id="arina-million" class="clearfix">
+            <section id="tron-racer" class="clearfix">
                 <div class="tron-racer-div">
-                    <img src="images/9TRON RACER/BG.png" alt="">
+                    <div class="tron-racer-bg">
+                        <img src="images/9TRONRACER/BG.png" alt="">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 tron-racer-left">
+                            <div class="tron-racer-logo">
+                                <img src="images/9TRONRACER/TronRacerLOGOCN-01.png" alt="">
+                            </div>
+                            <div class="tron-racer-word">
+                                <img src="images/9TRONRACER/ontronDappChainavailablenow_.png" alt="">
+                                <a href="">
+                                    <img src="images/9TRONRACER/PLAYNOW.png" alt="">
+                                </a>
+                            </div>
+                            
+                            
+                            
+                        </div>
+                    </div>
                 </div>
             </section>
     <!--------comming-soon------------------------------------------------>
