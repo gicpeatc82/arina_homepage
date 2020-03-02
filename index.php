@@ -438,11 +438,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                 <div class="pictures">
                     <div class="row">
                         <div id="carousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel" data-slide-to="1"></li>
-                            <li data-target="#carousel" data-slide-to="2"></li>
-                        </ol>
+
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="d-none d-lg-block">
@@ -482,15 +478,15 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                                 </div>
                                 <div class="d-none d-md-block d-lg-none">
                                     <div class="slide-box">
+                                    <img src="images/9TRONRACER/3.png" alt="First slide">
                                     <img src="images/9TRONRACER/4.png" alt="First slide">
                                     <img src="images/9TRONRACER/5.png" alt="First slide">
-                                    <img src="images/9TRONRACER/6.png" alt="First slide">
                                     </div>
                                 </div>
                                 <div class="d-none d-sm-block d-md-none">
                                     <div class="slide-box">
+                                    <img src="images/9TRONRACER/2.png" alt="First slide">
                                     <img src="images/9TRONRACER/3.png" alt="First slide">
-                                    <img src="images/9TRONRACER/4.png" alt="First slide">
                                     </div>
                                 </div>
                                 <div class="d-block d-sm-none">
@@ -509,22 +505,126 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                                 </div>
                                 <div class="d-none d-md-block d-lg-none">
                                     <div class="slide-box">
+                                    <img src="images/9TRONRACER/5.png" alt="First slide">
+                                    <img src="images/9TRONRACER/6.png" alt="First slide">
+                                    <img src="images/9TRONRACER/7.png" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-sm-block d-md-none">
+                                    <div class="slide-box">
+                                    <img src="images/9TRONRACER/3.png" alt="First slide">
+                                    <img src="images/9TRONRACER/4.png" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-block d-sm-none">
+                                    <img class="d-block w-100" src="images/9TRONRACER/3.png" alt="Second slide">
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="d-none d-lg-block">
+                                    <div class="slide-box">
+                                    <img src="images/9TRONRACER/1.png" alt="First slide">
+                                    <img src="images/9TRONRACER/2.png" alt="First slide">
+                                    <img src="images/9TRONRACER/3.png" alt="First slide">
+                                    <img src="images/9TRONRACER/4.png" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block d-lg-none">
+                                    <div class="slide-box">
                                     <img src="images/9TRONRACER/7.png" alt="First slide">
                                     <img src="images/9TRONRACER/8.png" alt="First slide">
                                     <img src="images/9TRONRACER/1.png" alt="First slide">
                                     </div>
                                 </div>
-                                <div class="d-none d-sm-block d-md-none">
+                                <div class="d-block d-sm-none">
+                                    <img class="d-block w-100" src="images/9TRONRACER/4.png" alt="Second slide">
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="d-none d-lg-block">
                                     <div class="slide-box">
+                                    <img src="images/9TRONRACER/4.png" alt="First slide">
                                     <img src="images/9TRONRACER/5.png" alt="First slide">
                                     <img src="images/9TRONRACER/6.png" alt="First slide">
+                                    <img src="images/9TRONRACER/7.png" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="images/9TRONRACER/1.png" alt="First slide">
+                                    <img src="images/9TRONRACER/2.png" alt="First slide">
+                                    <img src="images/9TRONRACER/3.png" alt="First slide">
+                                    </div>
+                                <div class="d-block d-sm-none">
+                                    <img class="d-block w-100" src="images/9TRONRACER/5.png" alt="Second slide">
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="d-none d-lg-block">
+                                    <div class="slide-box">
+                                    <img src="images/9TRONRACER/7.png" alt="First slide">
+                                    <img src="images/9TRONRACER/8.png" alt="First slide">
+                                    <img src="images/9TRONRACER/1.png" alt="First slide">
+                                    <img src="images/9TRONRACER/2.png" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block d-lg-none">
+                                    <div class="slide-box">
+                                    <img src="images/9TRONRACER/3.png" alt="First slide">
+                                    <img src="images/9TRONRACER/4.png" alt="First slide">
+                                    <img src="images/9TRONRACER/5.png" alt="First slide">
                                     </div>
                                 </div>
                                 <div class="d-block d-sm-none">
-                                    <img class="d-block w-100" src="images/9TRONRACER/2.png" alt="Second slide">
+                                    <img class="d-block w-100" src="images/9TRONRACER/6.png" alt="Second slide">
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="d-none d-lg-block">
+                                    <div class="slide-box">
+                                    <img src="images/9TRONRACER/1.png" alt="First slide">
+                                    <img src="images/9TRONRACER/2.png" alt="First slide">
+                                    <img src="images/9TRONRACER/3.png" alt="First slide">
+                                    <img src="images/9TRONRACER/4.png" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block d-lg-none">
+                                    <div class="slide-box">
+                                    <img src="images/9TRONRACER/5.png" alt="First slide">
+                                    <img src="images/9TRONRACER/6.png" alt="First slide">
+                                    <img src="images/9TRONRACER/7.png" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-block d-sm-none">
+                                    <img class="d-block w-100" src="images/9TRONRACER/7.png" alt="Second slide">
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="d-none d-lg-block">
+                                    <div class="slide-box">
+                                    <img src="images/9TRONRACER/5.png" alt="First slide">
+                                    <img src="images/9TRONRACER/6.png" alt="First slide">
+                                    <img src="images/9TRONRACER/7.png" alt="First slide">
+                                    <img src="images/9TRONRACER/8.png" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block d-lg-none">
+                                    <div class="slide-box">
+                                    <img src="images/9TRONRACER/7.png" alt="First slide">
+                                    <img src="images/9TRONRACER/8.png" alt="First slide">
+                                    <img src="images/9TRONRACER/1.png" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-block d-sm-none">
+                                    <img class="d-block w-100" src="images/9TRONRACER/8.png" alt="Second slide">
                                 </div>
                             </div>
                         </div>
+
                         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
                             <img src="images/9TRONRACER/LeftArrow.png" alt="">
                             <span class="sr-only">Previous</span>
