@@ -390,7 +390,7 @@ width:65%;
 }
 
 .future-games{
-    margin:3% 0;
+    margin:5% 0;
 }
 .future-games-item{
     width: 24%;
@@ -412,6 +412,11 @@ width:65%;
 .future-games-item:hover img {
     opacity: .6;
 }
+
+.dapp-img-a{
+    padding: 4%;
+}
+
 .future-games-item span, .dapp-img-a span{
     color:#fff;
     position: absolute;
@@ -798,12 +803,7 @@ width:65%;
 .s-model-arina-million .container{
     position: relative;
 }
-#s-model-million-free{
-    position: absolute;
-    left: 70%;
-    top:-45%;
-    width: 30%;
-}
+
 #s-model-arina-million-context span{
     text-shadow:
         -1px -1px 0 #000,
@@ -1225,6 +1225,12 @@ width:65%;
         line-height: 10%;
     }
 
+    #s-model-million-free{
+        position: absolute;
+        left: 75%;
+        top:-90%;
+        width: 30%;
+    }
 
     .future-games-item, #question-games{
         width: 49%;
@@ -1408,6 +1414,13 @@ width:65%;
         font-size: 2vw;
     }
 
+    #s-model-million-free{
+        position: absolute;
+        left: 75%;
+        top:-155%;
+        width: 30%;
+    }
+
     #arina-future{
         height: 140vh;
     }
@@ -1455,7 +1468,7 @@ width:65%;
     .copyright p{
         padding:1% 0;
         font-size: 0.5vw;
-        line-height: 15px;
+        line-height: 25px;
     }
     .footer ul{
         float: right;
@@ -1562,6 +1575,8 @@ width:65%;
         font-size: 0.7vw;
     }
 
+    
+
     .future-games-item, #question-games{
         width: 24%;
     }
@@ -1620,6 +1635,13 @@ width:65%;
         padding:3% 1%;
         margin:5% 0;
         width: 20%;
+    }
+
+    #s-model-million-free{
+        position: absolute;
+        left: 75%;
+        top:-155%;
+        width: 30%;
     }
 }
 
