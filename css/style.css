@@ -109,7 +109,7 @@ header {
 }
 .navbar{
     height:100%;
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 
 .nav-item-hide{
@@ -1148,10 +1148,10 @@ width:65%;
         font-size:4vw;
     }
     .toggle-navber{
-        height: 55vh;
+        height: 60vh;
     }
     #header-left h5{
-        margin: 0 10%;
+        margin: 0 4%;
     }
 
     #arina-info .container {
@@ -1173,10 +1173,10 @@ width:65%;
     }
 
     .navbar-collapse{
-        height:50vh;
+        height:70vh;
     }
     .nav-item{
-        margin:3% 0;
+        margin:5% 0;
     }
     .nav-link{
         padding:0;
@@ -1250,7 +1250,7 @@ width:65%;
         bottom: 18%;
     }
     #footer .container .row div{
-        padding:1% 5%;
+        padding:0 5%;
     }
     .s-model-bg {
         display:block;
@@ -1272,7 +1272,7 @@ width:65%;
         font-size: 1vw;
         line-height: 15px;
         float: left;
-        text-align: left;
+        /* text-align: left; */
     }
     .footer ul{
         float: none;
