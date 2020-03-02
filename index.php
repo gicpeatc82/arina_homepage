@@ -79,7 +79,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                                 <li><a href="http://www.arinamillion.com/arinanew/">ARINA YAKYUKEN</a></li>
                                 <li><a href="http://www.arinamillion.com/arinatycoonnew/scratch/">ARINA SCRATCH</a></li>
                                 <li><a href="http://www.arinatycoon.com/maingame.php">ARINA LAND TYCOON</a></li>
-                                <li><a href="https://www.arinatycoon.com/tron_racer_testnet/">TRON RACER</a></li>
+                                <li><a href="https://www.arinatycoon.com/tron-racer/">TRON RACER</a></li>
                             </ul>
                         </li>
 
@@ -182,7 +182,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                                     <span class="dapp-start-time">Jun 6 2019</span>
                                 </a>
 
-                                <a class="dapp-img-a" id="dapp-img-4" href="https://www.arinatycoon.com/tron_racer_testnet/">
+                                <a class="dapp-img-a" id="dapp-img-4" href="https://www.arinatycoon.com/tron-racer/">
                                     <img src="images/3OurDAPP/TRONRACER.png" alt="">
                                     <span class="dapp-game-name">TRON RACER</span> 
                                     <span class="dapp-start-time">Feb 20 2020</span>
@@ -426,7 +426,7 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                             </div>
                             <div class="tron-racer-word">
                                 <img src="images/9TRONRACER/ontronDappChainavailablenow_.png" alt="">
-                                <a href="https://www.arinatycoon.com/tron_racer_testnet/">
+                                <a href="https://www.arinatycoon.com/tron-racer/">
                                     <img src="images/9TRONRACER/PLAYNOW.png" alt="">
                                 </a>
                             </div>
@@ -551,11 +551,13 @@ $guest_ip = $_SERVER['REMOTE_ADDR'];
                                     <img src="images/9TRONRACER/7.png" alt="First slide">
                                     </div>
                                 </div>
-                                <div class="slide-box">
+                                <div class="d-none d-md-block d-lg-none">
+                                    <div class="slide-box">
+                                    <img src="images/9TRONRACER/7.png" alt="First slide">
+                                    <img src="images/9TRONRACER/8.png" alt="First slide">
                                     <img src="images/9TRONRACER/1.png" alt="First slide">
-                                    <img src="images/9TRONRACER/2.png" alt="First slide">
-                                    <img src="images/9TRONRACER/3.png" alt="First slide">
                                     </div>
+                                </div>
                                 <div class="d-block d-sm-none">
                                     <img class="d-block w-100" src="images/9TRONRACER/5.png" alt="Second slide">
                                 </div>
